@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.11RoboterArbeitslosigkeit
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -3122104437423558507, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "Unsere Top-Story heute: Chap Chaplin hatte mal wieder Recht. Wie ich ihnen schon
+    letztens berichtete, sind diese Roboter eine Zumutung. Seit ihrer Einf\xFChrung
+    ist die Arbeitslosigkeit auf ein Rekordhoch angestiegen. "
+  - "Die Roboter nehmen Menschen buchst\xE4blich die Arbeit weg. Durch das Wegfallen
+    eines Gehaltes sind die Roboter auf Dauer kosteng\xFCnstiger als eine normale
+    Arbeitskraft au\xDFerdem brauchen sie keinen Schlaf oder Pausen. "
+  - "NTV hat den ber\xFChmten Philosophen und Menschenrechtler W. Issen zu diesen
+    Entwicklungen befragt. Er warnt \"Roboter haben keine Moral keine Werte. Sie
+    Glauben an nichts. Ihre Gleichg\xFCltigkeit wird unser Untergang sein.\""
+  - "\xC4hh, danke f\xFCr diese\u2026interessante Einsch\xE4tzung. Ver\xE4rgerte
+    Arbeitnehmer haben jedenfalls angefangen auf den Stra\xDFen gegen die Roboter
+    zu protestieren.  Nun, die Blechb\xFCchse hier bei NTV k\xF6nnte niemals einen
+    Chap Chaplin ersetzen. "

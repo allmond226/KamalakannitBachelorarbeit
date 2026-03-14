@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.3aRoboterProtest
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -3122104437423558507, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "Bei der Vorstellung der neuen Generation der FuTech Roboter ist es zu massiven
+    Protesten gekommen. Eine kleine Gruppe von Demonstranten konnte die Pr\xE4sentation
+    erfolgreich st\xF6ren, weshalb diese abgebrochen wurde. "
+  - "Auch au\xDFerhalb der Vorstellung kam es zu mehreren Demonstrationen. Diese
+    hatten das Ziel die Regierung zu einem Verbot der neuen Roboter zu bewegen. Viele
+    Menschen haben Angst durch die Roboter arbeitslos zu werden. "
+  - "Nun ich f\xFCr meinen Teil schlafe sorglos mit dem Wissen das Roboter niemals
+    einen Chap Chaplin ersetzen k\xF6nnten. Aber ich Sorge mich nat\xFCrlich um meine
+    Fans, die nicht so gesegnet sind wie ich. "

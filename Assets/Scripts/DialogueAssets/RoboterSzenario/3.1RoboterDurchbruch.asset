@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.1RoboterDurchbruch
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -2865933700814424518, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "Der Firma FuTech ist ein Durchbruch in ihrer Robotertechnologie gelungen. Der
+    CEO stellte heute ihre neue AI vor. Durch diese k\xF6nnen die Roboter der n\xE4chsten
+    Generation als flexible Arbeitskraft genutzt werden. "
+  - "Wie Menschen sollen diese neuen Roboter in der Lage sein, verschiedene Aufgaben
+    auszuf\xFChren und flie\xDFend zwischen diesen zu wechseln. Damit sind Roboter
+    nun nicht mehr an bestimmte Einsatzbereiche gebunden. "
+  - "\"Unsere Technologie wird die Revolution im Arbeitsmarkt\" so der CEO von FuTech.
+    Bis jetzt gibt es nur einzelne Prototypen. Das Unternehmen hat angek\xFCndigt
+    die neue Technologie schnell auf den Markt zu bringen."

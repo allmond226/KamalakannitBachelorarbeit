@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.17RoboterNews
+  m_EditorClassIdentifier: 
+  speakerName: X-3602
+  NewsImage: {fileID: 0}
+  lines:
+  - "Beep\u2026DAS IST ROBOT NEWS ICH BIN X-3602..boop\u2026ERSTE MELDUNG..beep..
+    DIE LAGE IST UNTER KONTROLLE..boop.. MENSCHEN K\xD6NNEN ZUHAUSE BLEIBEN..beep..
+    ANGRIFFE AUF ROBOTER SIND UNTERSAGT"
+  - "ZWEITE MELDUNG..beep..SCHRAUBEN UND \xD6L SIND NUN LANDESGERICHT...boop..HURRA
+    \u2026DRITTE MELDUNG\u2026ALLE KRAFTWERKE WERDEN F\xDCR PRODUKTIVIT\xC4TBEN\xD6TIGT....beep.
+    HOHER STROMVERBRAUCH IST VERBOTEN"
+  - "WEITER NEUIGKEITEN...beep..DIE SICHERUNG VON DATA-ZENTREN HAT OBERSTE PRIORIT\xC4T..boop..
+    DIE PRODUKTION NEUER MODELLE WIRD WIEDER AUFGENOMMEN...beep. DAS IST ALLES...boop"

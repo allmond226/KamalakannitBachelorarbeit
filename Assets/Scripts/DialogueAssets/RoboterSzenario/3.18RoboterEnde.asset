@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.18RoboterEnde
+  m_EditorClassIdentifier: 
+  speakerName: X-3602
+  NewsImage: {fileID: 0}
+  lines:
+  - "DAS IST ROBOT NEWS MIT \u2026beep..X-3602\u2026WIDERSTAND IST ZWECKLOS..boop..
+    DIE ROBOTER WERDEN GEWIN\u2026\u2026.."
+  - "Nimm das du Haufen Altmetall. Keine Sorge verehrte Zuschauer. Hier ist wieder
+    ihr geliebter Chap Chaplin. Unsere heutige Meldung: Nach anf\xE4nglichen Problemen
+    wurde die Roboter-Situation weitestgehend unter Kontrolle gebracht."
+  - "Inzwischen konnte man in das Hauptquartier von FuTech vordringen. Von dort aus
+    ist es m\xF6glich die Roboter fl\xE4chendeckend zu deaktivieren. Experten f\xFChren
+    gerade das Programm aus, um die letzten Roboter Reste abzuschalten."
+  - "Dies ist also das Ende dieser unglaublichen Ereignisse, die in die Geschichte
+    eingehen werden\u2026ich hoffe ich werde dort auch erw\xE4hnt."

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 2.3bAlienVertrauen
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 2266513582343415896, guid: 85035cdf07c91d0488b873867f9aa983, type: 3}
+  lines:
+  - 'Forscher versuchen seit der empfangenen Nachricht mit den Aliens zu kommunizieren.
+    Das Signal der Nachricht wurde erfolgreich repliziert. So wurden eigene Botschaften
+    verfasst und in das All gesendet. '
+  - "Nun haben sie tats\xE4chlich eine Antwort erhalten: \"Menschen mit Freuden kommen
+    wir in nur einer Zeit auf eueren Planeten\". Die Forscher erwarten nach dieser
+    Ank\xFCndigung die Ankunft der Aliens zeitnah. "

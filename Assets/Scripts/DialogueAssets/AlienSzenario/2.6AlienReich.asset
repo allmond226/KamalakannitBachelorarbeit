@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 2.6AlienReich
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 7077911704879350649, guid: 85035cdf07c91d0488b873867f9aa983, type: 3}
+  lines:
+  - "Eilmeldung! Die Kaliks wollen die Erde in ihr Reich aufnehmen. Das teilte ihr
+    Botschafter vor wenigen Stunden der Delegation der Erde mit. Er k\xFCndigte an
+    das die Erde eine wichtige Rolle in den Pl\xE4nen der Kaliks spielen wird. "
+  - "Pr\xE4sident Rodrigues lehnt eine \xDCbernahme der Erde durch Aliens entschieden
+    ab. Viele andere L\xE4nder zeigten sich allerdings offener. Die Kaliks versicherten
+    sich nicht in die Regierung der Erde einzumischen."
+  - "Wie viel Einfluss allerdings die Aliens auf die Entscheidungstr\xE4ger h\xE4tten
+    bleibt unklar. Ihre Technologie wollen die Kaliks nicht mit der Erde teilen.
+    Wir warten gespannt auf das Ergebnis dieser richtungsweisenden Entscheidung. "

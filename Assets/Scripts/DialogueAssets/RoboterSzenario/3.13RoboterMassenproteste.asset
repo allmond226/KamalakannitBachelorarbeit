@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.13RoboterMassenproteste
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -426024714938825226, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "Nach dem Angriff auf einen Menschen kahm es diese Woche zu Massenprotesten gegen
+    die verantwortlichen Roboter. Einige Proteste verlangen die komplette Zerst\xF6rung
+    aller Fu-Tech Roboter der neuen Generation. "
+  - 'Die Situation war durch die steigende Arbeitslosigkeit schon zuvor angespannt
+    gewesen. Eine Blitz-Umfrage zeigt: Die vorher gespaltene Meinung zu den Robotern
+    wurde durch den Angriff zur weitgehenden Ablehnung. '
+  - "Ich pers\xF6nlich h\xE4tte auch nichts dagegen, wenn unsere Blechb\xFCchse verschrottet
+    wird. Auch wenn die einzige Gefahr, die ich bei dem h\xE4sslichen Teil ausgeht,
+    eine Gefahr f\xFCr meine Augen ist."

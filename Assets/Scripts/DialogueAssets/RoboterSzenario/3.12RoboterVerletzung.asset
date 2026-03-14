@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.12RoboterVerletzung
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -426024714938825226, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - 'Uns erreicht gerade eine schockierende Nachricht. Ein Roboter hat heute Mittag
+    ein Meschen schwer verletzt. Bei dem Opfer handelt es sich anscheint um einen
+    Anti-FuTech Demonstranten. Er wurde in ein Krankenhaus gebracht. '
+  - "Ein Sprecher von FuTech erkl\xE4rte die AI des Roboters habe auf einen Angriff
+    reagiert und in der Verteidigungsbewegung den Betroffenen ungl\xFCcklich getroffen.
+    FuTech versichert, dass keinerlei Gefahr von den Robotern ausgeht. "

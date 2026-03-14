@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: Choice1
+  m_EditorClassIdentifier: 
+  speakerName: 
+  lines:
+  - "Der Austausch mit einer neuen Spezies ist eine gro\xDFe M\xF6glichkeit f\xFCr
+    die Menschheit."
+  - Man muss schnell ein beidseitiges Vertrauen schaffen!
+  - "Wir kennen die Absichten der Aliens nicht, sie k\xF6nnten gef\xE4hrlich sein. "
+  - Man sollte ihnen erstmal Misstrauen!

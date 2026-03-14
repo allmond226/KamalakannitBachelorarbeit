@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.2RoboterStart
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -2865933700814424518, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "FuTech hat mitgeteilt mit der Massenproduktion ihrer neuen Roboter anzufangen.
+    Diese Roboter sollen in der Lage sein eine Arbeitskraft vollst\xE4ndig zu ersetzen.
+    Der erste dieser Roboter soll morgen auf der Fachmesse RAT vorgestellt werden. "
+  - "Kritiker bef\xFCrchten das diese Technologie den Arbeitsmarkt zerst\xF6ren k\xF6nnte.
+    Experten sprechen lediglich von einem Wandel des Arbeitsmarktes wie bei fr\xFCheren
+    Technologien wie Computern oder Dampfmaschinen."

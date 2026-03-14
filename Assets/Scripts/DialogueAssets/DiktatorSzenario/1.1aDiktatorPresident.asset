@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 1.1aDiktatorPresident
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 6318460948618543981, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
+  lines:
+  - "Frederico Rodrigues ist nun offiziell unser neuer Pr\xE4sident. Der 58-J\xE4hrige
+    hat Gestern seine erste Rede als Pr\xE4sident gehalten. Er sprach davon das Land
+    nach seinen W\xFCnschen umzugestalten. "
+  - "Die Opposition zeigte sich entsetzt \xFCber seine Wortwahl. \"In einer Demokratie
+    gibt es keinen Alleinherrscher\" merkte die Vorsitzende an. Der anwesende B\xFCrgermeister
+    spricht von einer fanatischen Atmosph\xE4re im Publikum. "
+  - "Wissen sie verehrte Zuschauer privat bin ich bin auch ein Freund direkter Worte,
+    aber wie Sie sehen, strahle ich bei der Arbeit absolute Professionalit\xE4t aus.
+    Aber der Pr\xE4sident sollte sich nicht mit einem Chap Chaplin vergleichen. "

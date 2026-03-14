@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 3.6aAlt
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: -3122104437423558507, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
+  lines:
+  - "Eilmeldung! Die Petition gegen unkontrollierte Technologie wurde heute diskutiert
+    und diese wurde gerade angenommen. Die Regierung hat nun erkl\xE4rt, dass eine
+    neue Beh\xF6rde zur Kontrolle von Technologie gebildet wird. "
+  - "Diese soll Einzelf\xE4lle bewerten und strengere Regeln f\xFCr die Einf\xFChrung
+    neuer Technologien erarbeiten. Auch Verbote von vorhandener Technologie sollen
+    durch die Beh\xF6rde durchgesetzt werden. "
+  - "Als erstes soll von der Beh\xF6rde ein Verbot aller Roboter von FuTech gepr\xFCft
+    werden. Die Regierung k\xFCndigte an schon bald weitere Pr\xFCfungen durchf\xFChren
+    zu wollen. Bisher wurden nur die Roboter der neuersten Generation verboten. "
