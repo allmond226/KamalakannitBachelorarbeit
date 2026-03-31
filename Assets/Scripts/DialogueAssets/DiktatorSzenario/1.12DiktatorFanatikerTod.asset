@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 1.12DiktatorFanatikerTod
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Eilmeldung!!! Frederico Rodrigues ist Tod. Er wurde heute bei einer Veranstaltung
+    erschossen. Laut unseren Nachforschungen handelt es sich bei dem T\xE4ter um
+    ein Mitglied der Fanatiker Bewegung."
+  - "In einem Statement bekannten sich die Fanatiker zu dem Mord und erkl\xE4rte,
+    dass der Personenkult des Pr\xE4sidenten eine inakzeptable Beleidigung ihre Religion
+    darstellt, was auch der Grund f\xFCr diese Tat war."
+  - "Nun wie dem auch sei, damit hat der Kult des Pr\xE4sidenten nun ein Ende. Dies
+    sollte uns allen eine Lehre sein, nicht zu viel Macht in die Hand eines Einzelnen
+    zu legen. Nicht jeder kann damit so gut umgehen wie ich."

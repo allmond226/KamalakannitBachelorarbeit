@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: A2.Aussagen
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Der Televangelist A. Schneider fiel heute mit mehreren fragw\xFCrdigen Aussagen
+    auf. So nannte er unter anderem Pr\xE4sident Rodrigues einen Gesandten Gottes
+    und rief dazu auf den Pr\xE4sidenten zu verehren."
+  - "Hier ein paar Ausschnitte aus seiner Predigt. \"Pr\xE4sident Rodrigues ist in
+    Gottes Namen zu uns gekommen, um uns und unser Land von der S\xFCnde und Verderbnis
+    wegzuf\xFChren. Unser Land ist mit ihm gesegnet worden.\""
+  - "\"Ihn zu hinterfragen ist wie Gott selbst zu hinterfragen. Verehrt ihn wie ihr
+    Gott verehrt.\" Schneider sagt, er hatte eine Eingebung bei einem Gespr\xE4ch
+    mit Rodrigues, nach der er das \"wahre Wesen\" des Pr\xE4sidenten erkannt hat."

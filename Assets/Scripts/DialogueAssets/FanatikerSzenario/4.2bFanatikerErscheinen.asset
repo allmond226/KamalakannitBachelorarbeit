@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 4.2bFanatikerErscheinen
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Unglaublich, bei unserer Untersuchung der Fanatiker hat sich unbeschreibliches
+    ereignet. Als das Opfer durchgef\xFChrt werden sollte, stieg eine Lichtgestalt
+    von oben herab und hielt die Fanatiker von ihrem Vorhaben ab."
+  - "Ich wei\xDF verehrte Zuschauer sie glauben mir jetzt wahrscheinlich nur, weil
+    ich Chap Chaplin ihr vertrauensw\xFCrdiger Starmoderator bin. Es wurde aber auch
+    alles von der geheimen Kamera unseres Undercover Reporters aufgefangen."
+  - "Damit gibt es f\xFCr die Fanatiker nun endlich einen Beweis, dass ihr Gott existiert.
+    Unser Reporter berichtet uns von der st\xFCrmischen Freude der Fanatiker. Sie
+    haben nun vor, anderen Menschen Gott n\xE4her zu bringen."

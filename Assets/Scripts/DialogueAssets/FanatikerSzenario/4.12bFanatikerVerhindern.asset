@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 4.12bFanatikerVerhindern
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Die meisten der gestrigen Anschl\xE4ge konnten verhindert werden. Nur bei einem
+    einzigen Anschlag, konnte die Situation nicht mehr rechtzeitig entsch\xE4rft
+    werden. Es gab 12 Tote sowie, mehrere Verletzte."
+  - "Die Fanatiker haben schon mit dem n\xE4chsten Anschlag gedroht. Sie zeigten
+    in einem Video mehrere tausend Tonnen Sprengstoff und erkl\xE4rten, dass sie
+    diese inzwischen sprengbereit platziert haben."
+  - "Die Regierung ruft zu Ruhe auf, laut einem Sprecher habe man alles unter Kontrolle.
+    NTV-Recherchen deuten aber darauf hin, dass die Regierung keine Informationen
+    \xFCber den Ort des Sprengstoffes besitzt."
+  - "Die Regierung befand sich kurz vor einem finalen Schlag gegen die Fanatiker.
+    Es w\xE4re schrecklich, wenn der Sprengstoff so kurz vor Ende des Krieges noch
+    hochgeht. Kann uns denn niemand mehr retten?!"

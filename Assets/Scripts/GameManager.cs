@@ -100,6 +100,7 @@ public class GameManager : MonoBehaviour
         print("Checking end conditions...");
         if (activeScenario.GetComponent<ScenarioManager>().isChoice)
         {
+            Debug.Log("Choice should be called");
             ShowChoice();
             activeScenario.GetComponent<ScenarioManager>().isChoice = false;
         }

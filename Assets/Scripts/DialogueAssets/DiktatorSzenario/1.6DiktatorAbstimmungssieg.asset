@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 1.6DiktatorAbstimmungssieg
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Eilmeldung!!! Pr\xE4sident Frederico Rodrigues hat die Abstimmung f\xFCr sich
+    entschieden. Damit ist er nun effektiv der alleinige Herrscher \xFCber dieses
+    Land. Es gibt keinen Teil der Regierung mehr, der ihm nicht direkt untersteht."
+  - "Pr\xE4sident Rodrigues hat erkl\xE4rt, nun \"wichtige \xC4nderungen f\xFCr das
+    Wohl dieses Landes\" vorzunehmen. Was genau er damit meint lies er allerdings
+    bewusst offen."
+  - "Au\xDFerdem hat der Pr\xE4sident angek\xFCndigt jegliche Berichte \xFCber bewaffnete
+    Beamte an den Wahlgeb\xE4uden, wegen Verleumdung zu verfolgen und mit einer Haft
+    von bis zu 5 Jahren zu bestrafen\u2026\u2026\u2026"
+  - "Ich wiederhole. Es sollte also keinesfalls \xFCber bewaffnete Regierungsbeamte
+    an den Wahllokalen berichtet werden, \xFCber diese bewaffneten Beamten an den
+    Wahllokalen sollte nicht gesprochen werden."

@@ -9,6 +9,7 @@ public class RobotScenarioManager : ScenarioManager
     public Dialogue humanRetake;
     public GameObject[] newsscreens;
     public GameObject retakeAnimation;
+    public GameObject alienScenario;
     public Animator robotTalk;
     public Animator humanTalk;
     public AudioClip robotAudio;
@@ -40,6 +41,7 @@ public class RobotScenarioManager : ScenarioManager
         {
             if (TextManager.Instance.currentLine == 0 && !hasRetaken)
             {
+                speakerText.text = "X-3602";
                 TextManager.Instance.textActive = false;
                 hasRetaken = true;
                 StartCoroutine(Retake());
@@ -50,6 +52,7 @@ public class RobotScenarioManager : ScenarioManager
                 speakerText.color = new Color32(36, 77, 147, 255);
                 TextManager.Instance.nameColor = speakerText.color;
             }
+            
             else return;
 
         }
@@ -81,6 +84,7 @@ public class RobotScenarioManager : ScenarioManager
             if (decision)
             {
                 scenarioDialogues.RemoveAt(5);
+                alienScenario.GetComponent<AlienScenarioManager>().canDefend = false;
             }
             else
             {
@@ -147,5 +151,6 @@ public class RobotScenarioManager : ScenarioManager
             if (altTexts[1] != null) scenarioDialogues[5] = altTexts[1];
             altTexts.Clear();
         }
+        currentDialogue = scenarioDialogues[scenarioProgress];
     }
 }

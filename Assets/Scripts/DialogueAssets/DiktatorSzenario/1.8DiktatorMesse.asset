@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 1.8DiktatorMesse
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "\u2026.Kommen wir nun zu unserem Bericht \xFCber Pr\xE4sident Rodrigues heutige
+    Rede. Obwohl man laut Augenzeugen die Veranstaltung heute gar nicht als Rede
+    bezeichnen kann, stattdessen eher als eine Art Messe."
+  - "Mehrere Personen haben uns von einer Gruppe Menschen erz\xE4hlt, die eine Kutte
+    mit dem Logo des Pr\xE4sidenten trugen. Es scheint sich dabei um die treuersten
+    Anh\xE4nger des Pr\xE4sidenten zu handeln."
+  - "Denn diese waren unter anderem auch auf der B\xFChne, direkt neben dem Pr\xE4sidenten.
+    Die Veranstaltung war, wie uns berichtet wurde, sehr inhaltslos und schien vor
+    allem aus Lobpreisungen des Pr\xE4sidenten zu bestehen."

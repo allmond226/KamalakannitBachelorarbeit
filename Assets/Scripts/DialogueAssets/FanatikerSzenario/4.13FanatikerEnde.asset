@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 4.13FanatikerEnde
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Eilmeldung, die Fanatiker haben \xFCberraschend kapituliert. Die Anf\xFChrer
+    sagen, dass sie eine g\xF6ttliche Eingebung hatten, die sie zu dem Beenden ihres
+    Krieges aufgefordert h\xE4tte. Diese Einsicht kommt zu einem wichtigen Zeitpunkt."
+  - "Bei ihrer Kapitulation haben die Fanatiker der Regierung verraten, wo der Sprengstoff
+    platziert wurde. Die Explosion h\xE4tte die Erde zerst\xF6ren k\xF6nnen. Die
+    Regierung ist gerade dabei diesen zu entsch\xE4rfen und abzutransportieren. "
+  - "Hui, die Explosion h\xE4tte die Erde zerst\xF6ren k\xF6nnen?! Das ist ja gerade
+    so nochmal gut gegangen\u2026.Spezialisten\u2026wollten das jeder ihren Gott
+    anbetet\u2026am Ende gab es fast keine Welt mehr, die etwas anbeten k\xF6nnte. "
+  - "Das ist wie mit meinen Fans und mir. Wenn es keine Fans g\xE4be, die zu mir
+    aufsehen w\xFCrden, w\xE4re auch mein Standing als Topmoderator nutzlos\u2026."

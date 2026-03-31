@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: "4.7FanatikerKriegserkl\xE4rung"
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Eilmeldung, die Fanatiker f\xFChren nun einen offenen Krieg gegen andere Religionen.
+    Sie haben ein schriftliches Statement mit dem Titel \"Tod den falschen Religionen\"
+    ver\xF6ffentlicht\u2026. ein sehr dezenter Name."
+  - "Darin k\xFCndigen sie Angriffe auf mehrere wichtigen Einrichtungen wie Regierungsgeb\xE4ude
+    und andere Kirchen an. Sie wollen nicht nur keine anderen Religionen zulassen,
+    sondern auch einen religionsbestimmten Staat."
+  - "Durch die gro\xDFe Anzahl der Fanatiker, welche immer noch rasend schnell w\xE4chst,
+    wird die Bedrohung immer gr\xF6\xDFer. Sie haben inzwischen schon einige Angriffe
+    durchgef\xFChrt und sogar einzelne St\xE4dte besetzt."

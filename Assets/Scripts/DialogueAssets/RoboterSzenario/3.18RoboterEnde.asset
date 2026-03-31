@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
   m_Name: 3.18RoboterEnde
   m_EditorClassIdentifier: 
-  speakerName: X-3602
+  speakerName: Chap
   NewsImage: {fileID: 0}
   lines:
   - "DAS IST ROBOT NEWS MIT \u2026beep..X-3602\u2026WIDERSTAND IST ZWECKLOS..boop..

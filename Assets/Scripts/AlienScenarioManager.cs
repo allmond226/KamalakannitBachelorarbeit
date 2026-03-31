@@ -138,12 +138,17 @@ public class AlienScenarioManager : ScenarioManager
     {
         if (GameManager.Instance.presidentDead)
         {
-            if (altTexts[0] != null) scenarioDialogues[0] = altTexts[0];
+            if (altTexts[0] != null)
+            {
+                scenarioDialogues[0] = altTexts[0];
+                withChoices[0] = altTexts[0];
+            } 
             if (altTexts[1] != null) scenarioDialogues[1] = altTexts[1];
             if (altTexts[2] != null) scenarioDialogues[5] = altTexts[2];
-            if (altTexts[3] != null) scenarioDialogues[10] = altTexts[3];
+            if (altTexts[3] != null) scenarioDialogues[7] = altTexts[3];
             altTexts.Clear();
         }
+        currentDialogue = scenarioDialogues[scenarioProgress];
     }        
     
 }

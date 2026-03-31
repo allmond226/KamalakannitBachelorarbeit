@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: 4.9FanatikerWiederaufbau
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Die Fanatiker haben beschlossen, die von ihnen eingenommenen zerst\xF6rten Gebiete
+    wieder Aufbauen zu wollen. Daf\xFCr haben sie heute ihre Pl\xE4ne ver\xF6ffentlicht.
+    Es sollen auffallend viele Tempel und Kirchen gebaut werden."
+  - "In ihrem Plan haben die Fanatiker vor ausgew\xE4hlte Kirchen und Tempel auch
+    als Regierungsgeb\xE4ude zu nutzen. Die Gebiete sollen von religi\xF6sen Oberh\xE4uptern
+    regiert werden. Alles soll eine Verbindung zu Gott haben."

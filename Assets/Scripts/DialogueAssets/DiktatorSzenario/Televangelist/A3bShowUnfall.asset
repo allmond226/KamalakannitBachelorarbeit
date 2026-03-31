@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4454ddfc1b9bcf4080a4b41117d5454, type: 3}
+  m_Name: A3bShowUnfall
+  m_EditorClassIdentifier: 
+  speakerName: Chap
+  NewsImage: {fileID: 0}
+  lines:
+  - "Die heutige Show von dem Televangelisten A. Schneider ging geh\xF6rig schief.
+    Bei dem Versuch ein gebrochenes Bein zu heilen, hat er sich sein eigenes Bein
+    durch einen herabfallenden Scheinwerfer gebrochen."
+  - "Durch die Live\xFCbertragung der Show wurde dieser Unfall von Millionen von
+    Zuschauern gesehen. Durch seine kontroversen Aussagen war die Einschaltquote
+    heute auf einem Rekordhoch."
+  - "Viele Zuschauer vertrauen nun nicht mehr einem Mann, der sich bei seiner angeblichen
+    Wunderheilung selbst verletzt. Au\xDFerdem gab es mehrere Berichte \xFCber dubiose
+    Zahlungen, die Schneider in Erkl\xE4rungsnot bringen."
+  - "Inzwischen wird gegen A. Schneider wegen Betruges ermittelt. Tja, Betr\xFCger
+    und Aufschneider gibt es \xFCberall, einen Chap Chaplin gibt es nur einmal."
