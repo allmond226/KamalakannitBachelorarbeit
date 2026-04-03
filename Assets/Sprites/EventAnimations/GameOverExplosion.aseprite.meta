@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 65d7d6835240cca42ab06f0eed63b402
+guid: 84ab4138728aab142ae0cb15866ad6af
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:AnimationClip
       assembly: UnityEngine.AnimationModule
-      name: Explosionen1_Clip
-    second: {fileID: 7400000, guid: f428d58a72b7e6f49af9c79f9eee2f6d, type: 2}
+      name: GameOverExplosion_Clip
+    second: {fileID: 7400000, guid: 8aeaff2ff80f70047abff48d6cd0c50a, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -102,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639106665864115438
+  platformSettingsDirtyTick: 639106749022148363
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -126,7 +126,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Explosionen1_Frame_0
+  - name: GameOverExplosion_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -137,7 +137,7 @@ ScriptedImporter:
       y: 4
       width: 480
       height: 270
-    spriteID: 8506d524c76afe943afda75853a4898d
+    spriteID: 4f7cb348532bcd243aca66bcc7def76a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +146,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Explosionen1_Frame_1
+  - name: GameOverExplosion_Frame_15
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -157,7 +157,7 @@ ScriptedImporter:
       y: 4
       width: 480
       height: 270
-    spriteID: e32f327a85f296e47ad338b67a520a1e
+    spriteID: 5421659713b541841aaa03e8b9533aef
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -166,7 +166,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 492, y: 4}
-  - name: Explosionen1_Frame_2
+  - name: GameOverExplosion_Frame_16
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 4
       width: 480
       height: 270
-    spriteID: c5a267fd08986a246b7f277e78d7f44e
+    spriteID: e3073846fe1ea2146a7fd69021ec42c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -186,7 +186,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 980, y: 4}
-  - name: Explosionen1_Frame_3
+  - name: GameOverExplosion_Frame_17
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -197,7 +197,7 @@ ScriptedImporter:
       y: 4
       width: 480
       height: 270
-    spriteID: 04697532292b6d3439381c4a53957a49
+    spriteID: 406ebb027da8c5d4ba7c7449848319a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -206,7 +206,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1468, y: 4}
-  - name: Explosionen1_Frame_4
+  - name: GameOverExplosion_Frame_18
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -217,7 +217,7 @@ ScriptedImporter:
       y: 282
       width: 480
       height: 270
-    spriteID: c4cfe35d6add22943829cdae1d03f2c8
+    spriteID: 0d8be67136e21fc42afd49687d39ca15
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -226,7 +226,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 282}
-  - name: Explosionen1_Frame_5
+  - name: GameOverExplosion_Frame_19
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -237,7 +237,7 @@ ScriptedImporter:
       y: 282
       width: 480
       height: 270
-    spriteID: 01fc6bf0ddf7ffe488d88f40e7bee2b4
+    spriteID: b805aea66a023ab4ab61fc3b5d0203d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -246,7 +246,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 492, y: 282}
-  - name: Explosionen1_Frame_6
+  - name: GameOverExplosion_Frame_20
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -257,7 +257,7 @@ ScriptedImporter:
       y: 282
       width: 480
       height: 270
-    spriteID: 90db5ebe4a982354596c9974ae6e0007
+    spriteID: 0e4fc7f0b46a635479771cc5e3b08368
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -266,7 +266,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 980, y: 282}
-  - name: Explosionen1_Frame_7
+  - name: GameOverExplosion_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -277,7 +277,7 @@ ScriptedImporter:
       y: 282
       width: 480
       height: 270
-    spriteID: 129a867bc6848294d9b1be57b09539e9
+    spriteID: f0058b2a1e6d8f64090d45a0130b0b68
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -286,7 +286,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1468, y: 282}
-  - name: Explosionen1_Frame_8
+  - name: GameOverExplosion_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -297,7 +297,7 @@ ScriptedImporter:
       y: 560
       width: 480
       height: 270
-    spriteID: 51753ebd19781af4380458d87c2f72b5
+    spriteID: 274850e55f795a54696802b0b32b8717
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -306,7 +306,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 560}
-  - name: Explosionen1_Frame_9
+  - name: GameOverExplosion_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -317,7 +317,7 @@ ScriptedImporter:
       y: 560
       width: 480
       height: 270
-    spriteID: bae778fafbdfd5a4b84a3133264a4d22
+    spriteID: a5de5cde1836e6d4ba811ff07fafac5d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -326,7 +326,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 492, y: 560}
-  - name: Explosionen1_Frame_10
+  - name: GameOverExplosion_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -337,7 +337,7 @@ ScriptedImporter:
       y: 560
       width: 480
       height: 270
-    spriteID: cb7ae88159a857747bbdc5f16915928a
+    spriteID: e40d3b0c7b6e9914c91b1082831704d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -346,7 +346,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 980, y: 560}
-  - name: Explosionen1_Frame_11
+  - name: GameOverExplosion_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -357,7 +357,7 @@ ScriptedImporter:
       y: 560
       width: 480
       height: 270
-    spriteID: a01ac75fdc339a84aad015fa9a30569a
+    spriteID: b824d7647444b7347be1507a3eece7da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -366,7 +366,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1468, y: 560}
-  - name: Explosionen1_Frame_12
+  - name: GameOverExplosion_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -377,7 +377,7 @@ ScriptedImporter:
       y: 838
       width: 480
       height: 270
-    spriteID: 9e5fd6889f63ded41a2656df46db3c37
+    spriteID: fc6823dc8c1536c43aad7462614e6b6b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -386,7 +386,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 838}
-  - name: Explosionen1_Frame_13
+  - name: GameOverExplosion_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -397,7 +397,7 @@ ScriptedImporter:
       y: 838
       width: 480
       height: 270
-    spriteID: 2366c06f016f5d249b0087d75ae14479
+    spriteID: 703d4dff4fcda9f449e4a6a635238053
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -406,7 +406,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 492, y: 838}
-  - name: Explosionen1_Frame_14
+  - name: GameOverExplosion_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -417,7 +417,7 @@ ScriptedImporter:
       y: 838
       width: 480
       height: 270
-    spriteID: 66beb5fb49f4506428d3e166b69520d4
+    spriteID: 3bc8ab581e233aa4585c4b9ede3c063f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -426,7 +426,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 980, y: 838}
-  - name: Explosionen1_Frame_15
+  - name: GameOverExplosion_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -437,7 +437,7 @@ ScriptedImporter:
       y: 838
       width: 480
       height: 270
-    spriteID: ffc083d4283dc0c4c8afaa6ad61c746b
+    spriteID: b307557b26ac0764797db917794f64ef
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -446,7 +446,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1468, y: 838}
-  - name: Explosionen1_Frame_16
+  - name: GameOverExplosion_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -457,7 +457,7 @@ ScriptedImporter:
       y: 1116
       width: 480
       height: 270
-    spriteID: 0e65bbe02dc248b46bc936bff7911e57
+    spriteID: 27f15573d88203a40b0b0b58c8fc2c85
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -466,7 +466,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 1116}
-  - name: Explosionen1_Frame_17
+  - name: GameOverExplosion_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -477,7 +477,7 @@ ScriptedImporter:
       y: 1116
       width: 480
       height: 270
-    spriteID: 3367802063b9ede49a100ea4df0fa740
+    spriteID: ea7329bae3964054cbc19f870e3348ec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -486,7 +486,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 492, y: 1116}
-  - name: Explosionen1_Frame_18
+  - name: GameOverExplosion_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -497,7 +497,7 @@ ScriptedImporter:
       y: 1116
       width: 480
       height: 270
-    spriteID: bdabc2c717c985349b3a3b7f71e745d1
+    spriteID: 3abbe9c1cfa8789448478774f0ec28db
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -506,7 +506,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 980, y: 1116}
-  - name: Explosionen1_Frame_19
+  - name: GameOverExplosion_Frame_13
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -517,7 +517,7 @@ ScriptedImporter:
       y: 1116
       width: 480
       height: 270
-    spriteID: 205debf8a2aad7e4188ff9d9abde9ff5
+    spriteID: 9934a246dbe94e440a0f29e6b885c889
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -526,182 +526,210 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1468, y: 1116}
+  - name: GameOverExplosion_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1394
+      width: 480
+      height: 270
+    spriteID: 5cd62417fe8258e4d863526db95e3443
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1394}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1001382263
-    name: Explosionen1
+    guid: -1082847579
+    name: GameOverExplosion
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Explosionen1_Frame_0
+    - name: GameOverExplosion_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: 8506d524c76afe943afda75853a4898d
-    - name: Explosionen1_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: e32f327a85f296e47ad338b67a520a1e
-    - name: Explosionen1_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: c5a267fd08986a246b7f277e78d7f44e
-    - name: Explosionen1_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 04697532292b6d3439381c4a53957a49
-    - name: Explosionen1_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: c4cfe35d6add22943829cdae1d03f2c8
-    - name: Explosionen1_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 01fc6bf0ddf7ffe488d88f40e7bee2b4
-    - name: Explosionen1_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 90db5ebe4a982354596c9974ae6e0007
-    - name: Explosionen1_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 129a867bc6848294d9b1be57b09539e9
-    - name: Explosionen1_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 51753ebd19781af4380458d87c2f72b5
-    - name: Explosionen1_Frame_9
-      frameIndex: 9
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: bae778fafbdfd5a4b84a3133264a4d22
-    - name: Explosionen1_Frame_10
-      frameIndex: 10
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: cb7ae88159a857747bbdc5f16915928a
-    - name: Explosionen1_Frame_11
-      frameIndex: 11
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: a01ac75fdc339a84aad015fa9a30569a
-    - name: Explosionen1_Frame_12
-      frameIndex: 12
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 9e5fd6889f63ded41a2656df46db3c37
-    - name: Explosionen1_Frame_13
-      frameIndex: 13
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 2366c06f016f5d249b0087d75ae14479
-    - name: Explosionen1_Frame_14
-      frameIndex: 14
-      cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: 66beb5fb49f4506428d3e166b69520d4
-    - name: Explosionen1_Frame_15
+      spriteId: 4f7cb348532bcd243aca66bcc7def76a
+    - name: GameOverExplosion_Frame_15
       frameIndex: 15
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: ffc083d4283dc0c4c8afaa6ad61c746b
-    - name: Explosionen1_Frame_16
+      spriteId: 5421659713b541841aaa03e8b9533aef
+    - name: GameOverExplosion_Frame_16
       frameIndex: 16
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: 0e65bbe02dc248b46bc936bff7911e57
-    - name: Explosionen1_Frame_17
+      spriteId: e3073846fe1ea2146a7fd69021ec42c0
+    - name: GameOverExplosion_Frame_17
       frameIndex: 17
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: 3367802063b9ede49a100ea4df0fa740
-    - name: Explosionen1_Frame_18
+      spriteId: 406ebb027da8c5d4ba7c7449848319a8
+    - name: GameOverExplosion_Frame_18
       frameIndex: 18
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: bdabc2c717c985349b3a3b7f71e745d1
-    - name: Explosionen1_Frame_19
+      spriteId: 0d8be67136e21fc42afd49687d39ca15
+    - name: GameOverExplosion_Frame_19
       frameIndex: 19
       cellRect:
         x: 0
         y: 0
         width: 480
         height: 270
-      spriteId: 205debf8a2aad7e4188ff9d9abde9ff5
+      spriteId: b805aea66a023ab4ab61fc3b5d0203d7
+    - name: GameOverExplosion_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 0e4fc7f0b46a635479771cc5e3b08368
+    - name: GameOverExplosion_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: f0058b2a1e6d8f64090d45a0130b0b68
+    - name: GameOverExplosion_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 274850e55f795a54696802b0b32b8717
+    - name: GameOverExplosion_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: a5de5cde1836e6d4ba811ff07fafac5d
+    - name: GameOverExplosion_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: e40d3b0c7b6e9914c91b1082831704d7
+    - name: GameOverExplosion_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: b824d7647444b7347be1507a3eece7da
+    - name: GameOverExplosion_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: fc6823dc8c1536c43aad7462614e6b6b
+    - name: GameOverExplosion_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 703d4dff4fcda9f449e4a6a635238053
+    - name: GameOverExplosion_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 3bc8ab581e233aa4585c4b9ede3c063f
+    - name: GameOverExplosion_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: b307557b26ac0764797db917794f64ef
+    - name: GameOverExplosion_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 27f15573d88203a40b0b0b58c8fc2c85
+    - name: GameOverExplosion_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: ea7329bae3964054cbc19f870e3348ec
+    - name: GameOverExplosion_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 3abbe9c1cfa8789448478774f0ec28db
+    - name: GameOverExplosion_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 9934a246dbe94e440a0f29e6b885c889
+    - name: GameOverExplosion_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 5cd62417fe8258e4d863526db95e3443
     linkedCells: []
     parentIndex: -1
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
     ignorePlatformSupport: 0
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0

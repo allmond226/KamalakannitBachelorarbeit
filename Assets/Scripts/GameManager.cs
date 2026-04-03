@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
     public GameObject endAnimation;
     public GameObject startScreen;
     public GameObject activeScenario;
+    public GameObject dictatorScenario;
+    public GameObject fanaticScenario;
     public GameObject gameOverMenu;
     public GameObject staticScreen;
     public GameObject blackTV;
@@ -28,10 +31,14 @@ public class GameManager : MonoBehaviour
     public GameObject choiceBox1;
     public GameObject choiceBox2;
     public bool isEnd;
+    public bool addedfScenario;
     public float surfaceArea;
+    public GameObject surfaceGameOver;
     public float faith;
-    bool isStart;
     public bool presidentDead;
+    bool isStart;
+    bool surfaceGOtriggered;
+    Camera mainCamera;
     // Start is called before the first frame update
     void Awake()
     {
@@ -43,11 +50,13 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        mainCamera = Camera.main;
         textBox.SetActive(false);
         randomScenario = false;
         activeScenario = scenarios[0];
         note.GetComponent<ChannelChanger>().stopSwitch = true;
         isStart = true;
+        surfaceArea = 100;
     }
 
     // Update is called once per frame
@@ -62,16 +71,23 @@ public class GameManager : MonoBehaviour
         }
         if (Input.GetKeyDown("1")) note.GetComponent<ChannelChanger>().SwitchChannel(1);
         if (Input.GetKeyDown("2")) note.GetComponent<ChannelChanger>().SwitchChannel(2);
+        if (surfaceArea < 30 && !surfaceGOtriggered)
+        {
+            ExplodeWorld();
+            surfaceGOtriggered = true;
+        }
     }
     void ChooseScenario()
     {
         if (isEnd) return;
         activeScenario.GetComponent<ScenarioManager>().SetProgress();
+        if (surfaceArea < 30) return;
         bool isDone = CheckIfDone();
         if (randomScenario && !isEnd && !isDone)
         {
-            int randomIndex = UnityEngine.Random.Range(0, scenarios.Count);
-            activeScenario = scenarios[randomIndex];
+            List<GameObject> remainingScenarios = scenarios.FindAll(scenario => !scenario.GetComponent<ScenarioManager>().skipScenario);
+            int randomIndex = UnityEngine.Random.Range(0,remainingScenarios.Count);
+            activeScenario = remainingScenarios[randomIndex];
         }
         print("Choosing new scenario...");
         if (activeScenario.GetComponent<ScenarioManager>().queuedAnimation != null) 
@@ -154,8 +170,19 @@ public class GameManager : MonoBehaviour
         isEnd = true;
         note.GetComponent<ChannelChanger>().isDestroyed = true;
         note.GetComponent<ChannelChanger>().destroyButton.SetActive(false);
-        staticScreen.SetActive(true);
         Invoke("SetGameOver", destroyAnimations[i].GetComponent<Animator>().runtimeAnimatorController.animationClips[0].length);
+    }
+    public void ExplodeWorld()
+    { 
+        textBox.SetActive(false);
+        choiceBox1.SetActive(false);
+        choiceBox2.SetActive(false);
+        isEnd = true;
+        mainCamera.GetComponent<EventCamera>().eventToPlay = surfaceGameOver;
+        note.GetComponent<ChannelChanger>().isDestroyed = true;
+        note.GetComponent<ChannelChanger>().destroyButton.SetActive(false);
+        mainCamera.GetComponent<EventCamera>().StartZoomIn();
+        Invoke("SetGameOver", 6);
     }
     public void SetGameOver()
     {

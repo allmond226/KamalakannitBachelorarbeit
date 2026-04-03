@@ -17,6 +17,7 @@ public class ScenarioManager : MonoBehaviour
     public List<Dialogue> altTexts;
     public Dialogue[] choices;
     public bool isChoice;
+    public bool skipScenario;
     public List<bool> choicesMade; // Speichert welche Entscheidungen getroffen wurden
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class ScenarioManager : MonoBehaviour
        scenarioLenght = scenarioDialogues.Count;
     }
     
-     public void SetProgress()
+     public virtual void SetProgress()
      {
         print("Checking for choice consequences...");
         if (choicesMade.Count != 0) ApplyChoiceConsequence(choicesMade[choicesMade.Count-1],scenarioProgress);
@@ -36,6 +37,11 @@ public class ScenarioManager : MonoBehaviour
         {
             GameManager.Instance.scenarios.Remove(gameObject);
             GameManager.Instance.randomScenario = true;
+            if (GameManager.Instance.scenarios.Count < 3 && !GameManager.Instance.addedfScenario)
+            {
+                GameManager.Instance.scenarios.Add(GameManager.Instance.fanaticScenario);
+                GameManager.Instance.addedfScenario = true;
+            }
             return;
         }
         else currentDialogue = scenarioDialogues[scenarioProgress];
@@ -43,9 +49,8 @@ public class ScenarioManager : MonoBehaviour
         if (withChoices.Contains(currentDialogue))
         {
             isChoice = true;
-        }
-        
-    }
+        }       
+     }
     public virtual void ApplyChoiceConsequence(bool decision,int consequenceIndex)
     {
        if (consequenceIndex == 2)
@@ -65,6 +70,14 @@ public class ScenarioManager : MonoBehaviour
                GameManager.Instance.CallScenarioCheck();
                print("President is dead, calling scenario check...");
             }
+        }
+       if (consequenceIndex == 3)
+       {
+           if (decision)
+           {
+                GameManager.Instance.scenarios.Add(GameManager.Instance.dictatorScenario);
+           }
+
         }
     }
     public virtual void CheckScenarioChanges()

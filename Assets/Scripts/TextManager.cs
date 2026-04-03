@@ -38,6 +38,7 @@ public class TextManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                if (GameManager.Instance.isEnd) return;
                 if (textBox.text == currentDialogue.lines[currentLine])
                 {
                     NextLine();
@@ -93,7 +94,6 @@ public class TextManager : MonoBehaviour
     public void NextLine()
     {
         currentLine++;
-
         if (currentLine < currentDialogue.lines.Length)
         {
             ShowText(currentDialogue.lines[currentLine]);

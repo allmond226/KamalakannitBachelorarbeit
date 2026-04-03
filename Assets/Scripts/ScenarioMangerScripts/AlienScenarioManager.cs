@@ -9,6 +9,7 @@ public class AlienScenarioManager : ScenarioManager
     public GameObject godSta;
     public GameObject godStaBig;
     public GameObject deadTV;
+    public bool religionAccepted; // Speichert, ob der Spieler die Religion der Aliens akzeptiert hat.
     int religionChoiceIndex = 5; // Entscheidung muss variabel sein, da sie  an unterschiedlichen Stellen im Szenario auftreten kann. 
     int damageCosequenceIndex = 99; // Verhindert das Konsequenz außerhlb der gewollten Rute aufgerufen wird.
     public override void ApplyChoiceConsequence(bool decision, int consequenceIndex)
@@ -115,6 +116,7 @@ public class AlienScenarioManager : ScenarioManager
             if (choicesMade[2])
             {
                 godStaBig.SetActive(true);
+                religionAccepted = true;
                 ufo.SetActive(false);
             }
             else if (choicesMade[0] && canDefend)
