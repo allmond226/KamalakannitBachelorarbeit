@@ -15,8 +15,8 @@ MonoBehaviour:
   speakerName: Chap
   NewsImage: {fileID: 0}
   lines:
-  - "Der bekannte Televangelist A. Schneider hat heute \xF6ffentlich bekannt gegeben
-    das er Pr\xE4sident Rodrigues unterst\xFCtzt. Er widmete ein Gebet dem Pr\xE4sidenten
+  - "Der bekannte Televangelist A. Schneider hat heute \xF6ffentlich bekannt gegeben,
+    dass er Pr\xE4sident Rodrigues unterst\xFCtzt. Er widmete ein Gebet dem Pr\xE4sidenten
     und betete f\xFCr seine Gesundheit und seinen Erfolg."
   - "\"Pr\xE4sident Rodrigues ist eine gro\xDFartige und inspirierende Person. Er
     vertritt unsere Werte, wie kein Zweiter.\", so Schneider nach seiner Messe. Zwischenzeitlich

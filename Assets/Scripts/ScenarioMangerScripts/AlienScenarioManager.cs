@@ -5,9 +5,6 @@ using UnityEngine;
 public class AlienScenarioManager : ScenarioManager
 {
     public bool canDefend; // Speichert, ob der Spieler die Option hat, sich zu verteidigen. Diese Variable wird verwendet, um die Konsequenzen der Entscheidungen zu steuern.
-    public GameObject ufo;
-    public GameObject godSta;
-    public GameObject godStaBig;
     public GameObject deadTV;
     public bool religionAccepted; // Speichert, ob der Spieler die Religion der Aliens akzeptiert hat.
     int religionChoiceIndex = 5; // Entscheidung muss variabel sein, da sie  an unterschiedlichen Stellen im Szenario auftreten kann. 
@@ -28,8 +25,6 @@ public class AlienScenarioManager : ScenarioManager
         }
         
         if (consequenceIndex == 1) queuedAnimation = eventAnimations[0]; //AnimationsTrigger
-
-        if (consequenceIndex == 2) ufo.SetActive(true); //UFO erscheint
 
         if (consequenceIndex == 4) //Entscheidung: Reich anschließen/Unabhängig bleiben
         {
@@ -64,7 +59,7 @@ public class AlienScenarioManager : ScenarioManager
             {
                 scenarioDialogues.RemoveAt(6);
                 queuedAnimation = eventAnimations[1];
-                GameManager.Instance.surfaceArea -= 15;
+                GameManager.Instance.surfaceArea -= 30;
             }
             else if (!choicesMade[0]) //Unabhängig bleiben + Verteidigen + Misstraut
             {
@@ -92,7 +87,7 @@ public class AlienScenarioManager : ScenarioManager
                         scenarioDialogues.RemoveAt(7);
                         GameManager.Instance.faith -= 15;
                         queuedAnimation = eventAnimations[1];
-                        GameManager.Instance.surfaceArea -= 15;
+                        GameManager.Instance.surfaceArea -= 30;
                     }
                     else if (!choicesMade[0]) //Ablehnen + Verteidigen + Misstraut
                     {
@@ -104,7 +99,7 @@ public class AlienScenarioManager : ScenarioManager
                 {
                     mainCamera.GetComponent<EventCamera>().eventToPlay = eventAnimations[3];
                     mainCamera.GetComponent<EventCamera>().StartZoomIn();
-                    ufo.SetActive(false);
+                    WorldScreen.Instance.ufo.SetActive(false);
                     GameManager.Instance.isEnd = true;
                     Invoke("BadEnd", eventAnimations[3].GetComponent<Animator>().runtimeAnimatorController.animationClips[0].length + 1.5f);
                 }
@@ -115,14 +110,12 @@ public class AlienScenarioManager : ScenarioManager
         {
             if (choicesMade[2])
             {
-                godStaBig.SetActive(true);
+                WorldScreen.Instance.UpdateStatues(1);
                 religionAccepted = true;
-                ufo.SetActive(false);
             }
             else if (choicesMade[0] && canDefend)
             {
-                godSta.SetActive(true);
-                ufo.SetActive(false);
+                WorldScreen.Instance.UpdateStatues(0);
             }
         }
         scenarioLenght = scenarioDialogues.Count;
@@ -130,6 +123,7 @@ public class AlienScenarioManager : ScenarioManager
     }
     void BadEnd()
     {
+        GameManager.Instance.alienBadEnd = true;
         GameManager.Instance.surfaceArea = 25;
         deadTV.SetActive(true);
         GameManager.Instance.note.GetComponent<ChannelChanger>().stopSwitch = false;
@@ -151,6 +145,35 @@ public class AlienScenarioManager : ScenarioManager
             altTexts.Clear();
         }
         currentDialogue = scenarioDialogues[scenarioProgress];
-    }        
+    }
+    public override void CheckWorldChanges()
+    {
+        if (scenarioProgress == 2)
+        {
+            var ws = WorldScreen.Instance;
+            if (ws == null)
+            {
+                Debug.LogWarning("WorldScreen.Instance is null in AlienScenarioManager.CheckWorldChanges (scenarioProgress==2)");
+            }
+            else if (ws.ufo == null)
+            {
+                Debug.LogWarning("WorldScreen.ufo is null (not assigned or destroyed) in AlienScenarioManager.CheckWorldChanges");
+            }
+            else
+            {
+                ws.ufo.SetActive(true);
+            }
+        } //UFO erscheint
+        if (scenarioProgress == religionChoiceIndex + 1)
+        {
+            WorldScreen.Instance.ufo.SetActive(false);
+            world.GetComponent<WorldScreen>().worldSpriteObject.GetComponent<SpriteRenderer>().sprite = world.GetComponent<WorldScreen>().worldSprites[0];
+        }
+        if (scenarioProgress == damageCosequenceIndex)
+        {
+            WorldScreen.Instance.ufo.SetActive(false);
+            world.GetComponent<WorldScreen>().worldSpriteObject.GetComponent<SpriteRenderer>().sprite = world.GetComponent<WorldScreen>().worldSprites[0];
+        }
+    }
     
 }

@@ -30,6 +30,15 @@ public class ChannelChanger : MonoBehaviour
     {
         CheckNoteHover();
         isEnd = GameManager.Instance.isEnd;
+        if (worldScreen.activeSelf)
+        {
+            GameManager.Instance.choiceBox1.SetActive(false);
+            GameManager.Instance.choiceBox2.SetActive(false);
+            newsPicture.SetActive(false);
+            GameManager.Instance.textBox.SetActive(false);
+            nameBox.SetActive(false);
+            if (!isDestroyed) destroyButton.SetActive(true);
+        }
     }
 
     private void CheckNoteHover()
@@ -85,7 +94,10 @@ public class ChannelChanger : MonoBehaviour
             destroyButton.SetActive(false);
             if (closedTextBox && !isDestroyed && !isEnd)
             {
-                GameManager.Instance.OpenTextBox();
+                GameManager.Instance.textBox.SetActive(true);
+                nameBox.SetActive(true);
+                newsPicture.SetActive(true);
+                TextManager.Instance.ShowText(TextManager.Instance.currentDialogue.lines[TextManager.Instance.currentLine]);
                 closedTextBox = false;
             }
             if (closedChoice && !isDestroyed && !isEnd)
@@ -98,24 +110,17 @@ public class ChannelChanger : MonoBehaviour
         else if (channel == 2)
         {
             newsScreen.SetActive(false);
-            worldScreen.SetActive(true);
-            newsPicture.SetActive(false);
-            if (!isDestroyed) destroyButton.SetActive(true);
             if (GameManager.Instance.textBox.activeSelf)
             {
                 TextManager.Instance.textActive = false;
                 TextManager.Instance.StopTextManager();
-                GameManager.Instance.textBox.transform.GetChild(0).gameObject.SetActive(false);
-                GameManager.Instance.textBox.SetActive(false);
-                nameBox.SetActive(false);
                 closedTextBox = true;
             }
             if (GameManager.Instance.choiceBox1.activeSelf || GameManager.Instance.choiceBox2.activeSelf)
             {
-                GameManager.Instance.choiceBox1.SetActive(false);
-                GameManager.Instance.choiceBox2.SetActive(false);
                 closedChoice = true;
             }
+            worldScreen.SetActive(true);
         }
     }
 }

@@ -15,10 +15,9 @@ MonoBehaviour:
   speakerName: Chap
   NewsImage: {fileID: 0}
   lines:
-  - "Pr\xE4sident Rodrigues hat heute einen\u2026. ehm\u2026eine Art\u2026 ja Appell
-    an die B\xFCrger gerichtet. \"Es ist an der Zeit, dass alle mich und meine Macht
-    anerkennen. Ich werde als gr\xF6\xDFter Pr\xE4sident aller Zeiten in die Geschichte
-    eingehen.\""
+  - "Pr\xE4sident Rodrigues hat heute einen...ehm..eine Art..ja Appell an die B\xFCrger
+    gerichtet. \"Es ist an der Zeit, dass alle mich und meine Macht anerkennen. Ich
+    werde als gr\xF6\xDFter Pr\xE4sident aller Zeiten in die Geschichte eingehen.\""
   - "\"Es ist mir bestimmt das Land zu f\xFChren. Ihr solltet mich verehren, denn
     ihr alle d\xFCrft nun von meiner Genialit\xE4t profitieren und Zeuge sein, wie
     ich dieses Land zu Ruhm und Glanz f\xFChren werde.\""

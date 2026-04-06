@@ -33,8 +33,8 @@ public class FanaticsScenarioManager : ScenarioManager
         }
         if (scenarioProgress == 5)
         {
-            GameManager.Instance.surfaceArea -= 15;
-            print("Surface area decreased by war - 15. Current surface area: " + GameManager.Instance.surfaceArea);
+            GameManager.Instance.surfaceArea -= 10;
+            print("Surface area decreased by war - 10. Current surface area: " + GameManager.Instance.surfaceArea);
             if (!decision)
             { 
                 GameManager.Instance.surfaceArea -= 20;
@@ -77,7 +77,8 @@ public class FanaticsScenarioManager : ScenarioManager
         { 
             if (decision)
             {
-              warStarted = false;
+                warStarted = false;
+                queuedAnimation = eventAnimations[4];
             }
             else
             {
@@ -87,6 +88,21 @@ public class FanaticsScenarioManager : ScenarioManager
             }
         }
         scenarioLenght = scenarioDialogues.Count;
+    }
+    public override void CheckWorldChanges()
+    {
+        if (scenarioProgress == 5)
+        {
+            warStarted = true;
+            fight = true;
+            Debug.Log("War started in FanaticsScenarioManager.CheckWorldChanges");
+        }
+        if (scenarioProgress == 10)
+        {
+            warStarted = false;
+            fight = false;
+            Debug.Log("War ended in FanaticsScenarioManager.CheckWorldChanges");
+        }
     }
 
 }

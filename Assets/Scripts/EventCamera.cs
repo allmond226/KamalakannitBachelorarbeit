@@ -46,10 +46,10 @@ public class EventCamera : MonoBehaviour
         if (!GameManager.Instance.isEnd)
         {
             GameManager.Instance.Invoke("OpenTextBox", 2);
-            GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(2);
+            GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(3.5f);
         }
         if (GameManager.Instance.surfaceArea < 30) GameManager.Instance.staticScreen.SetActive(true);
-        GameManager.Instance.note.GetComponent<ChannelChanger>().stopSwitch = false;
+        if (GameManager.Instance.isEnd) GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(1f);
         eventToPlay.SetActive(false);
         tvLight.SetActive(true);
     }

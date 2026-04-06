@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: 8d0ee4bfbc8da424eaf55941400c3a9b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: WeltKriegAni_Frame_0
+    originalName: 
+    pivot: {x: 0.56249994, y: -0.18134715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 421
+      width: 224
+      height: 193
+    spriteID: 496033c47e8da5d4ab8d9ea878dd5a16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 421}
+  - name: WeltKriegAni_Frame_1
+    originalName: 
+    pivot: {x: 0.56249994, y: -0.17676768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 4
+      width: 224
+      height: 198
+    spriteID: a2b940d9c34427642a5b5b84a7372f82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 4}
+  - name: WeltKriegAni_Frame_2
+    originalName: 
+    pivot: {x: 0.56249994, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 663
+      width: 224
+      height: 211
+    spriteID: 3e2a5194e3df2ec448a3e496d52bb1a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 663}
+  - name: WeltKriegAni_Frame_3
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1539
+      width: 217
+      height: 211
+    spriteID: 489faa985641b4c4a85c143ea83c0391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1539}
+  - name: WeltKriegAni_Frame_4
+    originalName: 
+    pivot: {x: 0.56249994, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 882
+      width: 224
+      height: 211
+    spriteID: ed4aaefbda2e94847ad10a90572a4a0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 882}
+  - name: WeltKriegAni_Frame_5
+    originalName: 
+    pivot: {x: 0.5483871, y: -0.18817204}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 1029
+      width: 217
+      height: 186
+    spriteID: e2ee2f5ee2eab34488387907c294b2d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 1029}
+  - name: WeltKriegAni_Frame_6
+    originalName: 
+    pivot: {x: 0.52657, y: -0.18421051}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 1223
+      width: 207
+      height: 190
+    spriteID: 073554792d7be004e80047a3bedf7a29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 1223}
+  - name: WeltKriegAni_Frame_7
+    originalName: 
+    pivot: {x: 0.53807104, y: -0.17766497}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 1820
+      width: 197
+      height: 197
+    spriteID: ac1c47fd5d621fb42adc9b9eb0187f8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 1820}
+  - name: WeltKriegAni_Frame_8
+    originalName: 
+    pivot: {x: 0.55454546, y: -0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1758
+      width: 220
+      height: 203
+    spriteID: 8d70a8295095a8e4db225e1708f3f879
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1758}
+  - name: WeltKriegAni_Frame_9
+    originalName: 
+    pivot: {x: 0.59836066, y: -0.16509435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 244
+      height: 212
+    spriteID: 92450647cba0b474a96c2ac8f92a4652
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: WeltKriegAni_Frame_10
+    originalName: 
+    pivot: {x: 0.56249994, y: -0.18134715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 622
+      width: 224
+      height: 193
+    spriteID: 8db43469760ffb54b80769c7baec9421
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 622}
+  - name: WeltKriegAni_Frame_11
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.17676768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 823
+      width: 217
+      height: 198
+    spriteID: 58a51d02a5c4d214b8d85db92be38992
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 823}
+  - name: WeltKriegAni_Frame_12
+    originalName: 
+    pivot: {x: 0.55506605, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 444
+      width: 227
+      height: 211
+    spriteID: 854ec2dd71debbc44ade20a8caffcdba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 444}
+  - name: WeltKriegAni_Frame_13
+    originalName: 
+    pivot: {x: 0.5701358, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1101
+      width: 221
+      height: 211
+    spriteID: 8443fcc8e14b3e242a4ca18f6ad147d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1101}
+  - name: WeltKriegAni_Frame_14
+    originalName: 
+    pivot: {x: 0.57272726, y: -0.16587678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1320
+      width: 220
+      height: 211
+    spriteID: 2b973afca956bcd4298c103673729d58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1320}
+  - name: WeltKriegAni_Frame_15
+    originalName: 
+    pivot: {x: 0.5666667, y: -0.18817204}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 1626
+      width: 210
+      height: 186
+    spriteID: 62de2263541ae0d46a6f724eec9889c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 1626}
+  - name: WeltKriegAni_Frame_16
+    originalName: 
+    pivot: {x: 0.545, y: -0.18421051}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 4
+      width: 200
+      height: 190
+    spriteID: 17ea52482408a4240ad65739e35f6881
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 4}
+  - name: WeltKriegAni_Frame_17
+    originalName: 
+    pivot: {x: 0.5326633, y: -0.17766497}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 1421
+      width: 199
+      height: 197
+    spriteID: 4dbd1c59efc74d543a522cb126f60ce1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 1421}
+  - name: WeltKriegAni_Frame_18
+    originalName: 
+    pivot: {x: 0.5674419, y: -0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 210
+      width: 215
+      height: 203
+    spriteID: 3ed143efb93634c4a894a8e5d3bff3a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 210}
+  - name: WeltKriegAni_Frame_19
+    originalName: 
+    pivot: {x: 0.62393165, y: -0.16509435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 234
+      height: 212
+    spriteID: 746e8f1155234a840b5f7db5e9182997
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2090193092
+    name: WeltKriegAni
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: WeltKriegAni_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 114
+        y: 35
+        width: 224
+        height: 193
+      spriteId: 496033c47e8da5d4ab8d9ea878dd5a16
+    - name: WeltKriegAni_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 114
+        y: 35
+        width: 224
+        height: 198
+      spriteId: a2b940d9c34427642a5b5b84a7372f82
+    - name: WeltKriegAni_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 114
+        y: 35
+        width: 224
+        height: 211
+      spriteId: 3e2a5194e3df2ec448a3e496d52bb1a0
+    - name: WeltKriegAni_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 114
+        y: 35
+        width: 217
+        height: 211
+      spriteId: 489faa985641b4c4a85c143ea83c0391
+    - name: WeltKriegAni_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 114
+        y: 35
+        width: 224
+        height: 211
+      spriteId: ed4aaefbda2e94847ad10a90572a4a0a
+    - name: WeltKriegAni_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 121
+        y: 35
+        width: 217
+        height: 186
+      spriteId: e2ee2f5ee2eab34488387907c294b2d6
+    - name: WeltKriegAni_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 131
+        y: 35
+        width: 207
+        height: 190
+      spriteId: 073554792d7be004e80047a3bedf7a29
+    - name: WeltKriegAni_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 134
+        y: 35
+        width: 197
+        height: 197
+      spriteId: ac1c47fd5d621fb42adc9b9eb0187f8f
+    - name: WeltKriegAni_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 118
+        y: 35
+        width: 220
+        height: 203
+      spriteId: 8d70a8295095a8e4db225e1708f3f879
+    - name: WeltKriegAni_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 94
+        y: 35
+        width: 244
+        height: 212
+      spriteId: 92450647cba0b474a96c2ac8f92a4652
+    - name: WeltKriegAni_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 114
+        y: 35
+        width: 224
+        height: 193
+      spriteId: 8db43469760ffb54b80769c7baec9421
+    - name: WeltKriegAni_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 114
+        y: 35
+        width: 217
+        height: 198
+      spriteId: 58a51d02a5c4d214b8d85db92be38992
+    - name: WeltKriegAni_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 114
+        y: 35
+        width: 227
+        height: 211
+      spriteId: 854ec2dd71debbc44ade20a8caffcdba
+    - name: WeltKriegAni_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 114
+        y: 35
+        width: 221
+        height: 211
+      spriteId: 8443fcc8e14b3e242a4ca18f6ad147d7
+    - name: WeltKriegAni_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 114
+        y: 35
+        width: 220
+        height: 211
+      spriteId: 2b973afca956bcd4298c103673729d58
+    - name: WeltKriegAni_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 121
+        y: 35
+        width: 210
+        height: 186
+      spriteId: 62de2263541ae0d46a6f724eec9889c8
+    - name: WeltKriegAni_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 131
+        y: 35
+        width: 200
+        height: 190
+      spriteId: 17ea52482408a4240ad65739e35f6881
+    - name: WeltKriegAni_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 134
+        y: 35
+        width: 199
+        height: 197
+      spriteId: 4dbd1c59efc74d543a522cb126f60ce1
+    - name: WeltKriegAni_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 118
+        y: 35
+        width: 215
+        height: 203
+      spriteId: 3ed143efb93634c4a894a8e5d3bff3a7
+    - name: WeltKriegAni_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 94
+        y: 35
+        width: 234
+        height: 212
+      spriteId: 746e8f1155234a840b5f7db5e9182997
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 480, y: 270}

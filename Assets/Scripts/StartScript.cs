@@ -24,7 +24,7 @@ public class StartScript : MonoBehaviour
         tvScreen.SetActive(true);
         Blackscreen.SetActive(false);
         GameManager.Instance.Invoke("OpenTextBox", 1f);
-        GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(1.3f);
+        GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(2.5f);
         gameObject.SetActive(false);
     }
 }

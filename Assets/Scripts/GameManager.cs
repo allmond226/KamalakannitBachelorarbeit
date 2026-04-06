@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     public GameObject surfaceGameOver;
     public float faith;
     public bool presidentDead;
+    public bool alienBadEnd;
+    public bool scenarioFight;
     bool isStart;
     bool surfaceGOtriggered;
     Camera mainCamera;
@@ -73,7 +75,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown("2")) note.GetComponent<ChannelChanger>().SwitchChannel(2);
         if (surfaceArea < 30 && !surfaceGOtriggered)
         {
-            ExplodeWorld();
+            if (!alienBadEnd) ExplodeWorld();
             surfaceGOtriggered = true;
         }
     }
@@ -102,10 +104,27 @@ public class GameManager : MonoBehaviour
             {
                 fadeToBlack.SetTrigger("Blackscreen");
                 Invoke("OpenTextBox", 2);
-                note.GetComponent<ChannelChanger>().BlockSwitch(2.2f);
+                note.GetComponent<ChannelChanger>().BlockSwitch(3.5f);
             }
         }
+        CheckWorldStatus();
     }
+
+    private void CheckWorldStatus()
+    {
+        activeScenario.GetComponent<ScenarioManager>().CheckWorldChanges();
+        bool currentFight = false;
+        foreach (var item in scenarios)
+        {
+            if (item.GetComponent<ScenarioManager>().fight)
+            {
+                scenarioFight = true;
+                currentFight = true;
+            }
+        }
+        if (!currentFight) scenarioFight = false;
+    }
+
     public void OpenTextBox()
     {   
         textBox.SetActive(true);

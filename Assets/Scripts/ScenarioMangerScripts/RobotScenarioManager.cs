@@ -123,6 +123,7 @@ public class RobotScenarioManager : ScenarioManager
     {
         newsscreens[2].SetActive(true);
         newsscreens[0].SetActive(false);
+        GameManager.Instance.randomScenario = false;
         TextManager.Instance.talkAnimation = robotTalk;
         TextManager.Instance.GetComponent<AudioSource>().Stop();
         TextManager.Instance.GetComponent<AudioSource>().clip = robotAudio;
@@ -138,6 +139,7 @@ public class RobotScenarioManager : ScenarioManager
         yield return new WaitForSeconds(retakeAnimation.GetComponent<Animator>().runtimeAnimatorController.animationClips[0].length);
         retakeAnimation.SetActive(false);
         newsscreens[0].SetActive(true);
+        GameManager.Instance.randomScenario = true;
         TextManager.Instance.textActive = true;
         TextManager.Instance.talkAnimation = humanTalk;
         TextManager.Instance.GetComponent<AudioSource>().Stop();
@@ -152,5 +154,10 @@ public class RobotScenarioManager : ScenarioManager
             altTexts.Clear();
         }
         currentDialogue = scenarioDialogues[scenarioProgress];
+    }
+    public override void CheckWorldChanges()
+    {
+        if (scenarioProgress == 7) fight = true;
+        if (scenarioProgress == 10) fight = false;
     }
 }

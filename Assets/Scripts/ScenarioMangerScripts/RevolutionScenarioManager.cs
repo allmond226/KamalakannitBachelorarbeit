@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RevolutionScenarioManager : ScenarioManager
 {
-    public bool fightStarted;
 
     public override void ApplyChoiceConsequence(bool decision, int consequenceIndex)
     {
@@ -20,10 +19,13 @@ public class RevolutionScenarioManager : ScenarioManager
                 scenarioDialogues.RemoveAt(3);
             }
         }
-        if (consequenceIndex == 3)
-        {
-            fightStarted = true;
-        }
         scenarioLenght = scenarioDialogues.Count;
+    }
+    public override void CheckWorldChanges()
+    {
+        if (scenarioProgress == 3)
+        {
+            fight = true;
+        }
     }
 }

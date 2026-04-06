@@ -13,11 +13,16 @@ public class DictatorScenarioManager : ScenarioManager
     bool hasAddedDeathDialogues = false;
     private void Update()
     {
-        if (rebellScenario.GetComponent<RevolutionScenarioManager>().fightStarted && !hasAddedDeathDialogues) //Rebellentod hinzufügen
+        fight = rebellScenario.GetComponent<RevolutionScenarioManager>().fight;
+        if (fight && !hasAddedDeathDialogues) //Rebellentod hinzufügen
         {
             scenarioDialogues.Add(deathDialogues[1]);
             addedDialogue = deathDialogues[1];
             hasAddedDeathDialogues = true;
+            if (scenarioProgress >= 7)
+            {
+                queuedAnimation = eventAnimations[3];
+            }
             skipScenario = false;
         }
         if (fanaticScenario.GetComponent<FanaticsScenarioManager>().warStarted)
@@ -29,6 +34,10 @@ public class DictatorScenarioManager : ScenarioManager
                     scenarioDialogues.Remove(deathDialogues[1]);
                     scenarioDialogues.Add(deathDialogues[2]);
                     addedDialogue = deathDialogues[2];
+                    if (scenarioProgress >= 7)
+                    {
+                        queuedAnimation = eventAnimations[3];
+                    }
                 }
             }
             else //FanatikerTod hinzufügen
@@ -36,6 +45,10 @@ public class DictatorScenarioManager : ScenarioManager
                 scenarioDialogues.Add(deathDialogues[2]);
                 addedDialogue = deathDialogues[2];
                 hasAddedDeathDialogues = true;
+                if (scenarioProgress >= 7)
+                {
+                    queuedAnimation = eventAnimations[3];
+                }
                 skipScenario = false;
             }
         }
@@ -46,7 +59,7 @@ public class DictatorScenarioManager : ScenarioManager
                 scenarioDialogues.Remove(deathDialogues[2]);
                 addedDialogue = null;
                 hasAddedDeathDialogues = false;
-                skipScenario = true; 
+                skipScenario = true;
             }
         }
         if (alienScenario.GetComponent<AlienScenarioManager>().religionAccepted) //AlienTod hat höchste Priorität
@@ -89,8 +102,8 @@ public class DictatorScenarioManager : ScenarioManager
             {
                 GameManager.Instance.scenarios.Remove(gameObject);
                 GameManager.Instance.randomScenario = true;
-            } 
-            
+            }
+
             return;
         }
         else currentDialogue = scenarioDialogues[scenarioProgress];
@@ -119,6 +132,23 @@ public class DictatorScenarioManager : ScenarioManager
         {
             queuedAnimation = eventAnimations[2];
         }
+        else if (scenarioProgress == 7 && fanaticScenario.GetComponent<FanaticsScenarioManager>().warStarted)
+        {
+            queuedAnimation = eventAnimations[3];
+        }
+        else if (scenarioProgress == 7 && fight)
+        {
+            queuedAnimation = eventAnimations[3];
+        }
         scenarioLenght = scenarioDialogues.Count;
+    }
+    public override void CheckWorldChanges()
+    {
+        if (scenarioProgress == 1)
+        {
+            rebellScenario.GetComponent<RevolutionScenarioManager>().fight = false;
+            fight = false;
+        }
+        if (scenarioProgress == 7) WorldScreen.Instance.UpdateStatues(2);
     }
 }

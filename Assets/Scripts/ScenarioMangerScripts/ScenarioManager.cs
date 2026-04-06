@@ -18,6 +18,7 @@ public class ScenarioManager : MonoBehaviour
     public Dialogue[] choices;
     public bool isChoice;
     public bool skipScenario;
+    public bool fight;
     public List<bool> choicesMade; // Speichert welche Entscheidungen getroffen wurden
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,7 @@ public class ScenarioManager : MonoBehaviour
      public virtual void SetProgress()
      {
         print("Checking for choice consequences...");
-        if (choicesMade.Count != 0) ApplyChoiceConsequence(choicesMade[choicesMade.Count-1],scenarioProgress);
+        if (choicesMade.Count != 0) ApplyChoiceConsequence(choicesMade[choicesMade.Count-1],scenarioProgress); //Update, bevor der Fortschritt erhöht wird (z.B muss Text A oder B angezeigt werden) Dies ist nötig, da Storyteile durch andere Szenarien unterbrochen werden können.
         scenarioProgress++;
         if (scenarioProgress >= scenarioLenght)
         {
@@ -81,6 +82,10 @@ public class ScenarioManager : MonoBehaviour
         }
     }
     public virtual void CheckScenarioChanges()
+    {
+
+    }
+    public virtual void CheckWorldChanges()
     {
 
     }

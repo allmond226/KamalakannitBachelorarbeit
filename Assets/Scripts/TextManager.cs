@@ -72,8 +72,8 @@ public class TextManager : MonoBehaviour
     public void ShowText(string fullText)
     {
         StopAllCoroutines();
-        textActive = true;
         talkAnimation.SetBool("talk", true);
+        textActive = true;
         StartCoroutine(TypeText(fullText));
     }
 
@@ -82,7 +82,6 @@ public class TextManager : MonoBehaviour
         nameBox.text = currentDialogue.speakerName;
         nameBox.color = nameColor;
         textBox.text = "";
-
         foreach (char letter in fullText)
         {
             talkAnimation.SetBool("talk", true);
