@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Choice5
   m_EditorClassIdentifier: 
   speakerName: 
+  NewsImage: {fileID: 0}
   lines:
   - "Wir brauchen striktere Regeln, um die Entwicklung gef\xE4hrlicher Technologie
     in Zukunft zu vermeiden."
-  - "Eine st\xE4rkere Kontrolle f\xF6rdert eine sichere Zukunft."
+  - "Eine st\xE4rkere Kontrolle f\xF6rdert eine sichere Zukunft!"
   - 'Die problematische Technologie ist verboten worden.  '
   - Weitere Verbote gehen zu weit!

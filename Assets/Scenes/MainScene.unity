@@ -8871,7 +8871,9 @@ MonoBehaviour:
   destroyAnimations:
   - {fileID: 226462971}
   scenarios:
-  - {fileID: 1921924269}
+  - {fileID: 550066076}
+  - {fileID: 1656097132}
+  - {fileID: 413111476}
   textboxAnimation: {fileID: 61196387}
   fadeToBlack: {fileID: 1907267751}
   normalTalk: {fileID: 1125173650}
