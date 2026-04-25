@@ -51,11 +51,13 @@ public class TextManager : MonoBehaviour
                 }
             }
         }
-        if (talkAnimation.GetBool("talk") && !GetComponent<AudioSource>().isPlaying)
+        bool talk = false;
+        if (talkAnimation.gameObject.activeSelf) talk = talkAnimation.GetBool("talk");
+        if (talk && !GetComponent<AudioSource>().isPlaying)
         {
             GetComponent<AudioSource>().Play();
         }
-        else if (!talkAnimation.GetBool("talk") && GetComponent<AudioSource>().isPlaying)
+        else if (!talk && GetComponent<AudioSource>().isPlaying)
         {
             GetComponent<AudioSource>().Stop();
         }

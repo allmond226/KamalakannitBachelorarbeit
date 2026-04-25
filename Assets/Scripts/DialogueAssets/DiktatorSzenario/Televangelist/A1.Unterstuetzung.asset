@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: A1.Unterstuetzung
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -8422322986458802967, guid: c49bb095256fca647998e7cb7cc26fc5, type: 3}
   lines:
   - "Der bekannte Televangelist A. Schneider hat heute \xF6ffentlich bekannt gegeben,
     dass er Pr\xE4sident Rodrigues unterst\xFCtzt. Er widmete ein Gebet dem Pr\xE4sidenten
     und betete f\xFCr seine Gesundheit und seinen Erfolg."
   - "\"Pr\xE4sident Rodrigues ist eine gro\xDFartige und inspirierende Person. Er
-    vertritt unsere Werte, wie kein Zweiter.\", so Schneider nach seiner Messe. Zwischenzeitlich
+    vertritt unsere Werte, wie kein Zweiter\", so Schneider nach seiner Messe. Zwischenzeitlich
     erreichte seine \xDCbertragung mehr als eine Million Menschen."
   - Schneider ist vor allem durch seine Wunderheilshows bekannt geworden. In diesen
-    heilte er augenscheinlich mehrere Menschen durch die Kraft des Glaubens. Kritiker
+    heilt er augenscheinlich mehrere Menschen durch die Kraft des Glaubens. Kritiker
     werfen ihm schon lange Betrug vor.

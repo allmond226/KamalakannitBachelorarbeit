@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4.11FanatikerAnschlaege
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 2874538921026625448, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - "Eilmeldung, uns erreichen Ger\xFCchte, dass die Fanatiker mehrere Anschl\xE4ge
     planen. Unseren Quellen zufolge sollen die Anschl\xE4ge schon sehr bald durchgef\xFChrt

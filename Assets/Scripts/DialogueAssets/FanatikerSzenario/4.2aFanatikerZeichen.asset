@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 4.2aFanatikerZeichen
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 173187134367426680, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
-  - Die Fanatiker Gruppe ist in Aufruhr. Das Ritual, bei dem auch unser Undercover
-    Reporter teilgenommen hat, ging schief. Gerade als das Opfer erbracht werden
-    sollte, hat einer der Fanatiker einen elektrischen Schlag bekommen.
+  - Die Fanatiker Gruppe ist in Aufruhr. Das Ritual, bei dem auch unser Undercover-Reporter
+    teilgenommen hat, ging schief. Gerade als das Opfer erbracht werden sollte, hat
+    einer der Fanatiker einen elektrischen Schlag bekommen.
   - "Unser Reporter berichtete uns von heftigen Diskussionen, die auf das Ereignis
     folgten. Die Fanatiker sind anscheinend der Ansicht, dass es sich bei dem pl\xF6tzlichen
     Schlag um den Zorn Gottes handeln muss."
   - "Die Fanatiker sind zu der \xDCberzeugung gekommen, dass sie den Zorn Gottes
     auf sich gezogen haben, weil die bisherigen Opfer nicht genug waren. Unser Reporter
-    warnt, sie sind nun noch gef\xE4hrlicher und haben vor mehr Meschen zu opfern."
+    warnt, sie sind nun noch gef\xE4hrlicher und haben vor mehr Menschen zu opfern."

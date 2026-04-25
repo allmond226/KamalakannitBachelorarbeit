@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 1.12DiktatorFanatikerTod
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 9200477077880400170, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Eilmeldung!!! Frederico Rodrigues ist Tod. Er wurde heute bei einer Veranstaltung
-    erschossen. Laut unseren Nachforschungen handelt es sich bei dem T\xE4ter um
+    erschossen. Laut unseren Nachforschungen, handelt es sich bei dem T\xE4ter um
     ein Mitglied der Fanatiker Bewegung."
-  - "In einem Statement bekannten sich die Fanatiker zu dem Mord und erkl\xE4rte,
+  - "In einem Statement bekannten sich die Fanatiker zu dem Mord und erkl\xE4rten,
     dass der Personenkult des Pr\xE4sidenten eine inakzeptable Beleidigung ihre Religion
     darstellt, was auch der Grund f\xFCr diese Tat war."
   - "Nun wie dem auch sei, damit hat der Kult des Pr\xE4sidenten nun ein Ende. Dies
-    sollte uns allen eine Lehre sein, nicht zu viel Macht in die Hand eines Einzelnen
+    sollte uns allen eine Lehre sein nicht zu viel Macht in die Hand eines Einzelnen
     zu legen. Nicht jeder kann damit so gut umgehen wie ich."

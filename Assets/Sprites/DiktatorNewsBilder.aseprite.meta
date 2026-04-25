@@ -189,8 +189,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 70
+      x: 74
+      y: 4
       width: 27
       height: 25
     spriteID: 35cfd5b3ec784eb4998773999d1fb6e7
@@ -209,8 +209,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 37
+      x: 39
+      y: 4
       width: 27
       height: 25
     spriteID: a7b8b808a9489834da06f08511a77a27
@@ -234,6 +234,46 @@ ScriptedImporter:
       width: 27
       height: 25
     spriteID: 32d8fcf9e26d41a46a1903f43c72c03a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: DiktatorNewsBilder_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 39
+      y: 37
+      width: 27
+      height: 25
+    spriteID: d2ffffa4d8597c64382d2ff75579a79a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: DiktatorNewsBilder_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 27
+      height: 25
+    spriteID: 3998bebcca46e8643b2745eba4b40037
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -274,6 +314,22 @@ ScriptedImporter:
         width: 27
         height: 25
       spriteId: 541c05ebea2cd58449ec18c4646fa91f
+    - name: DiktatorNewsBilder_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 27
+        height: 25
+      spriteId: 1984f19bb5bfaa04db8e834f7d9f1512
+    - name: DiktatorNewsBilder_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 27
+        height: 25
+      spriteId: 068d339dfbeaf254ca42a77679b7e1d2
     linkedCells: []
     parentIndex: -1
   platformSettings:

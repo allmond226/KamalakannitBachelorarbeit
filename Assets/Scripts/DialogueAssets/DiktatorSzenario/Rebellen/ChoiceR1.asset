@@ -15,8 +15,8 @@ MonoBehaviour:
   speakerName: 
   NewsImage: {fileID: 0}
   lines:
-  - "Der Diktator ist gef\xE4hrlich, Militanz ist ein legitimes Mittel um sich gegen
-    seine Unterdr\xFCckung zu wehren"
+  - "Der Diktator ist gef\xE4hrlich. Militanz ist ein legitimes Mittel um sich gegen
+    seine Unterdr\xFCckung zu wehren."
   - Die Menschen brauchen jetzt eine Rebellion!
   - "Gewalt ist keine L\xF6sung. Das Problem kann auch friedlich beiseite gelegt
     werden."

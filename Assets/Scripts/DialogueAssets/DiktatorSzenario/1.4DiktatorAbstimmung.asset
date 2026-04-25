@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 1.4DiktatorAbstimmung
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 6318460948618543981, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Unser heutiges Top-Thema: Pr\xE4sident Rodrigues hat reagiert. Auf Grund der
-    Kritik an seinem Verhalten und neuen Befugnissen, schlug der Pr\xE4sident eine
-    Abstimmung vor an der alle B\xFCrger teilnehmen sollen."
+    Kritik an seinem Verhalten und neuen Befugnissen schlug der Pr\xE4sident eine
+    Abstimmung vor, an der alle B\xFCrger teilnehmen sollen."
   - "\"Es ist wichtig f\xFCr dieses Land, das einzig und allein ich regiere. Aber
     die B\xFCrger haben die Wahl. Wenn die meisten wirklich ein Problem mit meiner
     neuen St\xE4rke haben, haben sie hier die M\xF6glichkeit mich abzuw\xE4hlen.\""

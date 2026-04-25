@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Choice2
   m_EditorClassIdentifier: 
   speakerName: 
+  NewsImage: {fileID: 0}
   lines:
-  - 'In einem Reich von mehreren Planeten, hat die Erde bessere Chancen im All zu
+  - 'In einem Reich von mehreren Planeten hat die Erde bessere Chancen im All zu
     bestehen.
 
 '
   - "\rDie Erde sollte sich dem Reich anschlie\xDFen. \r\r"
   - "Die Erde geh\xF6rt den Menschen, die Kaliks sollten keinen Einfluss auf diese
-    haben\r\r\n"
+    haben.\r\r\n"
   - "\rDie Menschen haben ihr eigenes Reich.\r\n"

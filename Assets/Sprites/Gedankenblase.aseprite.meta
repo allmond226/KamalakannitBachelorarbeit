@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 6
+    spritePixelsToUnits: 12
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639070376255536609
+  platformSettingsDirtyTick: 639125458334527259
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Gedankenblase
     originalName: 
-    pivot: {x: 0.5, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.46875}
     alignment: 9
-    border: {x: 4, y: 4, z: 4, w: 4}
+    border: {x: 6, y: 6, z: 6, w: 6}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 24
-      height: 17
+      width: 46
+      height: 32
     spriteID: c178bc4d01e45cc438606e1dea5d20a3
     spriteBone: []
     spriteOutline: []
@@ -153,10 +153,10 @@ ScriptedImporter:
     - name: Gedankenblase
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 7
-        width: 24
-        height: 17
+        x: 7
+        y: 15
+        width: 46
+        height: 32
       spriteId: c178bc4d01e45cc438606e1dea5d20a3
     linkedCells: []
     parentIndex: -1
@@ -200,4 +200,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 30, y: 30}
+  canvasSize: {x: 60, y: 60}

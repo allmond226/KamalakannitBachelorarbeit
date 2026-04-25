@@ -16,10 +16,10 @@ MonoBehaviour:
   NewsImage: {fileID: 0}
   lines:
   - "Guten Abend. Die Beh\xF6rde zur Kontrolle von Technologie BGT hat heute selbstfahrende
-    Autos verboten. In der Begr\xFCndung hie\xDF es das autonome Fahrten gef\xE4hrlich
+    Autos verboten. In der Begr\xFCndung hie\xDF es, dass autonome Fahrten gef\xE4hrlich
     seien, da die Sicherheit der Insassen von der Technologie abh\xE4ngt. "
   - "Dies sei ein zu gro\xDFer Einfluss der Technologie auf die Menschen, so das
-    BGT. Experten stimmen nicht mit dem Verbot \xFCberein. Sie weisen das Wegfallen
+    BGT. Experten stimmen nicht mit dem Verbot \xFCberein. Sie weisen auf das Wegfallen
     menschlicher Fehler hin, das zu geringeren Unfallraten f\xFChrt. "
   - "Das Verbot wird trotz der Meinung der Experten durchgesetzt werden. Zuvor hatte
     die Beh\xF6rde schon alle Roboter der Firma FuTech verboten und damit das Unternehmen

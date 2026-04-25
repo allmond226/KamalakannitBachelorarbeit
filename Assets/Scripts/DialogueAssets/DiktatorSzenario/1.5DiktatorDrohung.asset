@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: 1.5DiktatorDrohung
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 2055342799203861237, guid: c49bb095256fca647998e7cb7cc26fc5, type: 3}
   lines:
   - "Guten Abend, verehrte Zuschauer und was f\xFCr ein Abend es ist. Es ist der
     Abend vor der gro\xDFen Abstimmung \xFCber die Macht von Pr\xE4sident Rodrigues.
     Vor der Abstimmung hielt Rodrigues nochmal eine gro\xDFe Rede."
   - "Augenzeugen berichten von vermummten und bewaffneten Gestalten, die Teilnehmer
     der Veranstaltung eingesch\xFCchtert h\xE4tten. Pr\xE4sident Rodrigues stellte
-    diese als Teile der Rebellen da, die laut ihm Unruhe stiften wollten."
+    diese als Teile der Rebellen dar, die laut ihm Unruhe stiften wollten."
   - "Die von uns interviewten Teilnehmer erz\xE4hlten NTV allerdings, dass diese
     Gestalten die Leute aufgefordert h\xE4tten f\xFCr den Pr\xE4sidenten zustimmen
     und ihn anzufeuern. Personen gegen den Pr\xE4sidenten wurden demnach bedroht."
   - "An dieser Stelle wollen wir Ihnen nochmal versichern: Egal was kommt, wir bei
-    NTV berichten immer neutral ! Daf\xFCr stehe ich Chap Chaplin mit meinem Namen!"
+    NTV berichten immer neutral! Daf\xFCr stehe ich Chap Chaplin mit meinem Namen!"

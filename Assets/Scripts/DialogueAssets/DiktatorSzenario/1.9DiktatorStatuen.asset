@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 1.9DiktatorStatuen
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 6318460948618543981, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Pr\xE4sident Frederico Rodrigues hat mehrere Statuen von sich in Auftrag gegeben.
-    Einige davon hundert Meter hoch. Diese soll \xFCber dem Land verteilt aufgestellt
+    Einige davon hundert Meter hoch. Diese sollen \xFCber das Land verteilt aufgestellt
     werden. Bestehende Statuen sollen daf\xFCr abgerissen werden."
-  - "Pr\xE4sident Rodrigues erkl\xE4rte das sein Ziel sei, dass in jeder Stadt und
-    in jedem Dorf mindestens eine Statue von ihm steht. Sobald gen\xFCgend Statuen
+  - "Pr\xE4sident Rodrigues erkl\xE4rte, dass sein Ziel sei, dass in jeder Stadt
+    und in jedem Dorf mindestens eine Statue von ihm steht. Sobald gen\xFCgend Statuen
     hergestellt wurden, werde er dies per Gesetz veranlassen."

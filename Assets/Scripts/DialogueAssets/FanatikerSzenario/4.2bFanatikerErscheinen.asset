@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 4.2bFanatikerErscheinen
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -2181957875647219385, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - "Unglaublich, bei unserer Untersuchung der Fanatiker hat sich unbeschreibliches
     ereignet. Als das Opfer durchgef\xFChrt werden sollte, stieg eine Lichtgestalt
     von oben herab und hielt die Fanatiker von ihrem Vorhaben ab."
   - "Ich wei\xDF verehrte Zuschauer sie glauben mir jetzt wahrscheinlich nur, weil
     ich Chap Chaplin ihr vertrauensw\xFCrdiger Starmoderator bin. Es wurde aber auch
-    alles von der geheimen Kamera unseres Undercover Reporters aufgefangen."
+    alles von der geheimen Kamera unseres Undercover-Reporters aufgefangen."
   - "Damit gibt es f\xFCr die Fanatiker nun endlich einen Beweis, dass ihr Gott existiert.
     Unser Reporter berichtet uns von der st\xFCrmischen Freude der Fanatiker. Sie
-    haben nun vor, anderen Menschen Gott n\xE4her zu bringen."
+    haben nun vor, anderen Menschen Gott n\xE4herzubringen."

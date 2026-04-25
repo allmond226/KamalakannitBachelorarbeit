@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
     public bool randomScenario;
+    public GameObject mainScreen;
     public GameObject textBox;
     public GameObject note;
     public GameObject startAnimation;
@@ -69,6 +70,8 @@ public class GameManager : MonoBehaviour
             startScreen.SetActive(false);
             startAnimation.SetActive(true);
             startNewsscreen.SetActive(true);
+            mainScreen.GetComponent<AudioSource>().volume = 0.6f;
+            mainScreen.GetComponent<MainScreenAnimationManager>().doNotPlayAni = false;
             isStart = false;
         }
         if (Input.GetKeyDown("1")) note.GetComponent<ChannelChanger>().SwitchChannel(1);
@@ -205,6 +208,7 @@ public class GameManager : MonoBehaviour
     }
     public void SetGameOver()
     {
+        mainScreen.GetComponent<MainScreenAnimationManager>().doNotPlayAni = true;
         gameOverMenu.SetActive(true);
         choiceBox1.SetActive(false);
         choiceBox2.SetActive(false);

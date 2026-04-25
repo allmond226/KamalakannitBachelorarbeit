@@ -15,9 +15,9 @@ MonoBehaviour:
   speakerName: Chap
   NewsImage: {fileID: 7077911704879350649, guid: 85035cdf07c91d0488b873867f9aa983, type: 3}
   lines:
-  - "Eilmeldung! Gestern Abend sind die Aliens die, wie nun bekannt ist, sich selbst
-    Kaliks nennen, auf der Erde angekommen. Lediglich ein einziger Gesandter wurde
-    abgesetzt. Sein Schiff kreist der Zeit nah \xFCber der Erde. "
+  - "Eilmeldung! Gestern Abend sind die Aliens auf der Erde angekommen. Wie nun bekannt
+    ist, scheinen diese sich selbst Kaliks zu nennen. Lediglich ein einziger Gesandter
+    wurde abgesetzt. Sein Schiff kreist derzeit nah \xFCber der Erde. \r"
   - "Angesichts des einzelnen Abgesandten wird die von ihnen ausgehende Gefahr gerade
     als gering eingesch\xE4tzt. Forscher freuen sich auf die einmalige Gelegenheit
     sich mit einer neuen intelligenten Spezies auszutauschen. "

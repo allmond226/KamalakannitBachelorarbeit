@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A4.Festnahme
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -9079260320273735189, guid: c49bb095256fca647998e7cb7cc26fc5, type: 3}
   lines:
   - Eilmeldung, der bekannte Televangelist A. Schneider wurde gerade eben festgenommen.
     Der Grund sind dubiose Zahlungen, die Schneider von einem unbekannten Konto erhalten
@@ -22,7 +22,7 @@ MonoBehaviour:
     hat au\xDFerdem Jahre lang seine Heilungen gef\xE4lscht, indem er gesunde Schauspieler
     engagiert hat und dann so getan hat, als w\xFCrde er diese heilen."
   - "Pr\xE4sident Rodriges hat sich \xF6ffentlich von Schneider distanziert. Er erkl\xE4rte
-    \"Ich bin best\xFCrzt, dass dieser widerwertige Betr\xFCger versucht hat meinen
+    \"Ich bin best\xFCrzt, dass dieser widerw\xE4rtige Betr\xFCger versucht hat meinen
     guten Namen zu missbrauchen, um sich zu legitimieren.\""
   - "\"Als ich davon erfahren habe, habe ich ihn nat\xFCrlich sofort festnehmen lassen.
     F\xFCr Betr\xFCger ist in meinem Land kein Platz!\" Tja, Betr\xFCger und Aufschneider

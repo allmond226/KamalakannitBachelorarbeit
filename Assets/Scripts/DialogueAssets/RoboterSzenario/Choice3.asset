@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Choice3
   m_EditorClassIdentifier: 
   speakerName: 
+  NewsImage: {fileID: 0}
   lines:
-  - Fortschritt ist etwas Gutes. Die Menschen werden sich anpassen und mit der Technologie
+  - Fortschritt ist etwas Gutes. Die Menschen werden sich anpassen und mit den Robotern
     arbeiten.
   - Die Menschheit sollte Fortschritt annehmen.
-  - "Technologie die den Menschen ersetzt ist unmoralisch und eine Gefahr f\xFCr
+  - "Technologie, die den Menschen ersetzt ist unmoralisch und eine Gefahr f\xFCr
     die Menschheit."
   - Ich lehne Maschinen die Menschen imitieren ab.

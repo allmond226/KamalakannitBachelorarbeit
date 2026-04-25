@@ -114,6 +114,7 @@ public class RobotScenarioManager : ScenarioManager
         }
         if (consequenceIndex == 7 && !choicesMade[0] && choicesMade[1])
         {
+            GameManager.Instance.isEnd = true;
             GameManager.Instance.SetGameOver();
             newsscreens[3].SetActive(true);
         }

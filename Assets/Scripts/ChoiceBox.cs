@@ -6,6 +6,7 @@ using TMPro;
 public class ChoiceBox : MonoBehaviour
 {
     public TextMeshProUGUI choiceText;
+    public TextMeshProUGUI flavorText;
     public bool leftChoice;
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,13 @@ public class ChoiceBox : MonoBehaviour
     {
         if (leftChoice)
         {
-            // Flavor Text,  Leerzeile, und Entscheidung (mit größerer Größe und dunklem Orange)
-            choiceText.text = dialogueChoice.lines[0] + "\n\n<size=40><color=#FF8C00>" + dialogueChoice.lines[1] + "</color></size>";
+            flavorText.text = dialogueChoice.lines[0];
+            choiceText.text = dialogueChoice.lines[1];
         }
         else
         {
-            choiceText.text = dialogueChoice.lines[2] + "\n\n<size=40><color=#FF8C00>" + dialogueChoice.lines[3] + "</color></size>";
+            flavorText.text = dialogueChoice.lines[2];
+            choiceText.text = dialogueChoice.lines[3];
         }
     }
     public void SendChoice()

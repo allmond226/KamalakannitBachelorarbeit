@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 4.8FanatikerStadtAngriff
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 2874538921026625448, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - "Der Krieg gegen die Fanatiker tobt weiter. Heute haben die Fanatiker angek\xFCndigt,
-    dass sie mehrere Gro\xDFst\xE4dte angreifen werden. Namentlich Neumund, Hartburg
+    dass sie mehrere Gro\xDFst\xE4dte angreifen werden. Namentlich, Neumund, Hartburg
     und Kerrin. Die St\xE4dte haben ihre Sicherheit deswegen stark erh\xF6ht."
   - "Das Vorhaben diese St\xE4dte anzugreifen ist allerdings sehr gewagt. Alle drei
     St\xE4dte verf\xFCgen \xFCber eine riesige Milit\xE4rpr\xE4senz und sollten jeglichen

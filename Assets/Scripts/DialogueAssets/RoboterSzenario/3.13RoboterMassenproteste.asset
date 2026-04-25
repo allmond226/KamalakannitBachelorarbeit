@@ -15,12 +15,12 @@ MonoBehaviour:
   speakerName: Chap
   NewsImage: {fileID: -426024714938825226, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
   lines:
-  - "Nach dem Angriff auf einen Menschen kahm es diese Woche zu Massenprotesten gegen
-    die verantwortlichen Roboter. Einige Proteste verlangen die komplette Zerst\xF6rung
-    aller Futech Roboter der neuen Generation. "
+  - "Nach dem Angriff auf einen Menschen kam es diese Woche zu Massenprotesten gegen
+    die verantwortlichen Roboter. Einige Protestierende verlangen die komplette Zerst\xF6rung
+    aller FuTech Roboter der neuen Generation. "
   - 'Die Situation war durch die steigende Arbeitslosigkeit schon zuvor angespannt
     gewesen. Eine Blitz-Umfrage zeigt: Die vorher gespaltene Meinung zu den Robotern
     wurde durch den Angriff zur weitgehenden Ablehnung. '
   - "Ich pers\xF6nlich h\xE4tte auch nichts dagegen, wenn unsere Blechb\xFCchse verschrottet
-    wird. Auch wenn die einzige Gefahr, die ich bei dem h\xE4sslichen Teil ausgeht,
-    eine Gefahr f\xFCr meine Augen ist."
+    wird. Auch wenn die einzige Gefahr, die von dem h\xE4sslichen Teil ausgeht, eine
+    Gefahr f\xFCr meine Augen ist."

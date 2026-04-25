@@ -11,6 +11,7 @@ public class EventCamera : MonoBehaviour
     public GameObject eventToPlay;
     public Animator eventAnimation;
     public GameObject tvLight;
+    public GameObject mainScreen;
     void Start()
     {
 
@@ -32,6 +33,7 @@ public class EventCamera : MonoBehaviour
     {
         eventToPlay.SetActive(true);
         tvLight.SetActive(false);
+        mainScreen.GetComponent<AudioSource>().volume = 0;
         Invoke("EndEventAnimation", eventAnimation.runtimeAnimatorController.animationClips[0].length);
     }
     public void EndEventAnimation()
@@ -52,6 +54,7 @@ public class EventCamera : MonoBehaviour
         if (GameManager.Instance.isEnd) GameManager.Instance.note.GetComponent<ChannelChanger>().BlockSwitch(1f);
         eventToPlay.SetActive(false);
         tvLight.SetActive(true);
+        mainScreen.GetComponent<AudioSource>().volume = 0.6f;
     }
 
 }

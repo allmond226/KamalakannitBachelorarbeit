@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.2DiktatorGesetze
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 6318460948618543981, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Pr\xE4sident Rodrigues hat heute ein neues Gesetz erlassen, dieses erlaubt ihm
     nun aus eigener Kraft neue Gesetze durchzusetzen. Durch die Neuerung muss die
@@ -22,7 +22,7 @@ MonoBehaviour:
     wesentlich mehr Einfluss und Rechte gew\xE4hren. Inzwischen kann ein Dekret des
     Pr\xE4sidenten nicht mehr rechtlich aufgehalten werden."
   - "Die Oppositionspartei kritisiert die neuen Gesetze scharf. \"Der Pr\xE4sident
-    kann nun allein \xFCber das Schicksal des Landes entscheiden\" sagte ihr Leiter
+    kann nun allein \xFCber das Schicksal des Landes entscheiden\", sagte ihr Leiter
     und k\xFCndigte an, alle M\xF6glichkeiten auszusch\xF6pfen, um die Gesetze zu
     annullieren."
   - "Laut dem Pr\xE4sidenten sind die \xC4nderungen n\xF6tig, damit er das Land effektiv

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: "4.7FanatikerKriegserkl\xE4rung"
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 2874538921026625448, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - "Eilmeldung, die Fanatiker f\xFChren nun einen offenen Krieg gegen andere Religionen.
     Sie haben ein schriftliches Statement mit dem Titel \"Tod den falschen Religionen\"
-    ver\xF6ffentlicht\u2026. ein sehr dezenter Name."
-  - "Darin k\xFCndigen sie Angriffe auf mehrere wichtigen Einrichtungen wie Regierungsgeb\xE4ude
-    und andere Kirchen an. Sie wollen nicht nur keine anderen Religionen zulassen,
+    ver\xF6ffentlicht\u2026. Ein sehr dezenter Name."
+  - "Darin k\xFCndigen sie Angriffe auf mehrere wichtige Einrichtungen, wie Regierungsgeb\xE4ude
+    und andere Kirchen, an. Sie wollen nicht nur keine anderen Religionen zulassen,
     sondern auch einen religionsbestimmten Staat."
   - "Durch die gro\xDFe Anzahl der Fanatiker, welche immer noch rasend schnell w\xE4chst,
     wird die Bedrohung immer gr\xF6\xDFer. Sie haben inzwischen schon einige Angriffe

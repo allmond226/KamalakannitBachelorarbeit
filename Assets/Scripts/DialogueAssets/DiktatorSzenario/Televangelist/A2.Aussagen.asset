@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A2.Aussagen
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 1675812072361477119, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Der Televangelist A. Schneider fiel heute mit mehreren fragw\xFCrdigen Aussagen
     auf. So nannte er unter anderem Pr\xE4sident Rodrigues einen Gesandten Gottes

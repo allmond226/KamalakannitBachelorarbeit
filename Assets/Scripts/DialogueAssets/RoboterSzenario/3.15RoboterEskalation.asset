@@ -15,13 +15,12 @@ MonoBehaviour:
   speakerName: Chap
   NewsImage: {fileID: -426024714938825226, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
   lines:
-  - "Eilmeldung! Nach den Angriffen auf FuTech Roboter, haben die Roboter nun auch
+  - "Eilmeldung! Nach den Angriffen auf FuTech Roboter haben die Roboter nun auch
     angefangen die Demonstranten zu attackieren. Es herrscht nun effektiv ein B\xFCrgerkrieg
     gegen die Roboter. Wie das passieren konnte, ist unklar. "
-  - "Ein Ex-FuTech Mitarbeiter vermutet ein Fehlfunktion in der k\xFCnstlichen Intelligenz
+  - "Ein Ex-FuTech Mitarbeiter vermutet eine Fehlfunktion in der k\xFCnstlichen Intelligenz
     der Roboter. Diese scheint mit den w\xFCtenden Protesten nicht umgehen zu k\xF6nnen.
     Die AI wurde laut seinen Aussagen nicht ausreichend getestet. "
-  - "Es besteht die M\xF6glichkeit das die Fehlfunktion auch Roboter betrifft, die
-    noch kein auff\xE4lliges Verhalten zeigen. Die Regierung ruft zur Zerst\xF6rung
-    aller Roboter, die noch nicht gewaltt\xE4tig sind, auf. Auch NTV hat seinen Roboter
-    entfernt. "
+  - "Es besteht die M\xF6glichkeit, dass die Fehlfunktion auch Roboter betrifft,
+    die noch kein auff\xE4lliges Verhalten zeigen. Die Regierung ruft zur Zerst\xF6rung
+    aller, auch unauff\xE4lliger, Roboter auf. Auch NTV hat seinen Roboter entfernt. "

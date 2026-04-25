@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: B3a.RebellenZuspruch
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 2055342799203861237, guid: c49bb095256fca647998e7cb7cc26fc5, type: 3}
   lines:
   - "Eilmeldung, die Rebellion breitet sich aus! Unsere Nachforschungen zeigen, dem
     Aufruf der Rebellion zur Militanz sind viele B\xFCrgerinnen und B\xFCrger gefolgt.

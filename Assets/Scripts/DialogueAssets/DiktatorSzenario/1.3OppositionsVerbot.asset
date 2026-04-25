@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.3OppositionsVerbot
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 6318460948618543981, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Verehrte Zuschauer, wir haben eine wichtige Sondermeldung! Die Oppositionspartei
     ist ab sofort verboten. Pr\xE4sident Rodrigues teilte mit, dass heute Nachmittag

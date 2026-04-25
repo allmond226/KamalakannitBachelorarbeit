@@ -16,8 +16,8 @@ MonoBehaviour:
   NewsImage: {fileID: -426024714938825226, guid: b65739434eeb77b47ba3419dcbca2f93, type: 3}
   lines:
   - 'Uns erreicht gerade eine schockierende Nachricht. Ein Roboter hat heute Mittag
-    ein Meschen schwer verletzt. Bei dem Opfer handelt es sich anscheint um einen
-    Anti-Futech Demonstranten. Er wurde in ein Krankenhaus gebracht. '
+    einen Menschen schwer verletzt. Bei dem Opfer handelt es sich anscheint um einen
+    Anti-FuTech Demonstranten. Er wurde in ein Krankenhaus gebracht. '
   - "Ein Sprecher von FuTech erkl\xE4rte die AI des Roboters habe auf einen Angriff
     reagiert und in der Verteidigungsbewegung den Betroffenen ungl\xFCcklich getroffen.
     FuTech versichert, dass keinerlei Gefahr von den Robotern ausgeht. "

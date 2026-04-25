@@ -140,7 +140,11 @@ public class AlienScenarioManager : ScenarioManager
                 withChoices[0] = altTexts[0];
             } 
             if (altTexts[1] != null) scenarioDialogues[1] = altTexts[1];
-            if (altTexts[2] != null) scenarioDialogues[5] = altTexts[2];
+            if (altTexts[2] != null)
+            {
+                scenarioDialogues[5] = altTexts[2];
+                withChoices[1] = altTexts[2];
+            }
             if (altTexts[3] != null) scenarioDialogues[7] = altTexts[3];
             altTexts.Clear();
         }

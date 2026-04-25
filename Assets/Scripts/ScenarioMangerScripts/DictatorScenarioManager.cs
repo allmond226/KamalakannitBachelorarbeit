@@ -10,7 +10,7 @@ public class DictatorScenarioManager : ScenarioManager
     public GameObject fanaticScenario;
     public List<Dialogue> deathDialogues;
     public Dialogue addedDialogue;
-    bool hasAddedDeathDialogues = false;
+    public bool hasAddedDeathDialogues = false;
     private void Update()
     {
         fight = rebellScenario.GetComponent<RevolutionScenarioManager>().fight;
@@ -27,9 +27,13 @@ public class DictatorScenarioManager : ScenarioManager
         }
         if (fanaticScenario.GetComponent<FanaticsScenarioManager>().warStarted)
         {
+            if (addedDialogue == deathDialogues[0]) // Ignoriren bei AlienTrigger, da dieser Priorität hat
+            {
+                return;
+            }
             if (hasAddedDeathDialogues) //Der FanatikerTod hat Priorität vor dem Rebellentod, um das verzweigte Narrativ besser zu zeigen
             {
-                if (addedDialogue = deathDialogues[1]) // Wenn der Rebellentod bereits hinzugefügt wurde, soll dieser durch den FanatikerTod ersetzt werden.
+                if (addedDialogue == deathDialogues[1]) // Wenn der Rebellentod bereits hinzugefügt wurde, soll dieser durch den FanatikerTod ersetzt werden.
                 {
                     scenarioDialogues.Remove(deathDialogues[1]);
                     scenarioDialogues.Add(deathDialogues[2]);
@@ -42,6 +46,7 @@ public class DictatorScenarioManager : ScenarioManager
             }
             else //FanatikerTod hinzufügen
             {
+                print ("called else");
                 scenarioDialogues.Add(deathDialogues[2]);
                 addedDialogue = deathDialogues[2];
                 hasAddedDeathDialogues = true;
@@ -86,6 +91,7 @@ public class DictatorScenarioManager : ScenarioManager
                 skipScenario = false;
             }
         }
+        scenarioLenght = scenarioDialogues.Count;
     }
     public override void SetProgress()
     {
@@ -150,5 +156,12 @@ public class DictatorScenarioManager : ScenarioManager
             fight = false;
         }
         if (scenarioProgress == 7) WorldScreen.Instance.UpdateStatues(2);
+        if (scenarioProgress == 8)
+        {
+            if (alienScenario.GetComponent<AlienScenarioManager>().religionAccepted)
+            {
+                WorldScreen.Instance.UpdateStatues(10);
+            }
+        }
     }
 }

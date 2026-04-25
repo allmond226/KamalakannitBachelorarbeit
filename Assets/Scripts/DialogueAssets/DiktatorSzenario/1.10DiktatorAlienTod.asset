@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 1.10DiktatorAlienTod
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: 9200477077880400170, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Eilmeldung!!! Frederico Rodrigues ist Tod. Die Kaliks sind \xFCberraschend zur\xFCckgekommen
     und haben den Pr\xE4sidenten get\xF6tet. Sie haben au\xDFerdem s\xE4mtliche Statuen
     des Pr\xE4sidenten zerst\xF6rt."
   - "Der Pr\xE4sident hat sie wahrscheinlich ver\xE4rgert, als er die Statuen Kalis
-    zerst\xF6rt hat um an der gleichen Stelle seine eigenen Statuen zu errichten.
+    zerst\xF6rt hat, um an der gleichen Stelle seine eigenen Statuen zu errichten.
     Dies war ein Affront gegen die Religion der Kaliks, den diese anscheinend schnell
     mitbekommen haben."
   - "Die Kaliks scheinen doch fast alles, was auf der Erde passiert, mitzubekommen. 

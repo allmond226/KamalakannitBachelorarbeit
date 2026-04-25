@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4.9FanatikerWiederaufbau
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -8034286425535661767, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - "Die Fanatiker haben beschlossen, die von ihnen eingenommenen zerst\xF6rten Gebiete
     wieder Aufbauen zu wollen. Daf\xFCr haben sie heute ihre Pl\xE4ne ver\xF6ffentlicht.

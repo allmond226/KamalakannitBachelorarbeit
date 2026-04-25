@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 4.3FanatikerFehler
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -8034286425535661767, guid: 3a0b72b3cd955e442ab20c9ec9b1b41c, type: 3}
   lines:
   - Die Fanatiker haben letzte Woche wieder mehrere Menschen geopfert. Die Anzahl
-    der Opfer Rituale der Gruppe hat stark zugenommen, seit eins der Opfer gescheitert
+    der Opferrituale der Gruppe hat stark zugenommen, seit eins der Opfer gescheitert
     ist. Allerdings wurden die Fanatiker dadurch auch unvorsichtig.
   - So ist es unserem Reporter gelungen mehrere eindeutig belastende Beweise zu beschaffen.
-    Diese hat NTV nun an die Polizei und an die Regierung weitergeleitet, wir hoffen
-    das nun bald eine Festnahme erfolgt.
+    Diese hat NTV nun an die Polizei und an die Regierung weitergeleitet, wir hoffen,
+    dass bald eine Festnahme erfolgt.

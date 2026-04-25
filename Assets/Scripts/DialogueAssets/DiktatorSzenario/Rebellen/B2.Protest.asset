@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: B2.Protest
   m_EditorClassIdentifier: 
   speakerName: Chap
-  NewsImage: {fileID: 0}
+  NewsImage: {fileID: -1702168347618454642, guid: f2bc53714c8e93247a79b1ce91140882, type: 3}
   lines:
   - "Pr\xE4sident Rodrigues hat den Gro\xDFprotest der Rebellion durch Milit\xE4r
     und Polizei zerschlagen lassen. Es gab mehrere Festnahmen. Laut NTV-Informationen
     war der urspr\xFCngliche Protest allerdings friedlich."
   - 'Bei der darauffolgenden Auseinandersetzung wurden allerdings mehrere Personen
-    verletzt. Unsere Nachforschungen haben ergeben, dass es auf Seiten der Rebellen
+    verletzt. Unsere Nachforschungen haben ergeben, dass es aufseiten der Rebellen
     auch mehrere Todesopfer gab. '
   - "Auf Grund des brutalen und \xFCberzogenen Eingriffes, wie die Rebellion die
     Geschehnisse beschreibt, hat die Rebellion nun ihrerseits alle B\xFCrger aufgefordert,
