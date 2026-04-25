@@ -149,7 +149,8 @@ public class GameManager : MonoBehaviour
     }
     public bool CheckIfDone()
     {
-        if (scenarios.Count == 0 && !isEnd)
+        List<GameObject> remainingScenarios = scenarios.FindAll(scenario => !scenario.GetComponent<ScenarioManager>().skipScenario);
+        if (remainingScenarios.Count == 0 && !isEnd)
         {
             blackTV.SetActive(true);
             endAnimation.SetActive(true);
