@@ -92,6 +92,10 @@ public class DictatorScenarioManager : ScenarioManager
             }
         }
         scenarioLenght = scenarioDialogues.Count;
+        if (scenarioProgress < scenarioLenght)
+        {
+            currentDialogue = scenarioDialogues[scenarioProgress];
+        }
     }
     public override void SetProgress()
     {
@@ -112,7 +116,6 @@ public class DictatorScenarioManager : ScenarioManager
 
             return;
         }
-        else currentDialogue = scenarioDialogues[scenarioProgress];
 
         if (withChoices.Contains(currentDialogue))
         {
